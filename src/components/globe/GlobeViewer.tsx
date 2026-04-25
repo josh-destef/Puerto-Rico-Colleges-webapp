@@ -70,7 +70,9 @@ export function GlobeViewer({ onReady }: GlobeViewerProps) {
     // Enable globe lighting and atmosphere
     viewer.scene.globe.enableLighting = true;
     viewer.scene.globe.atmosphereLightIntensity = 20.0;
-    viewer.scene.skyAtmosphere.show = true;
+    if (viewer.scene.skyAtmosphere) {
+      viewer.scene.skyAtmosphere.show = true;
+    }
     viewer.scene.fog.enabled = true;
     viewer.scene.fog.density = 0.0002;
 
@@ -235,7 +237,7 @@ export function GlobeViewer({ onReady }: GlobeViewerProps) {
     if (!viewer || !data) return;
 
     const filteredIds = new Set(
-      filtered.map((f, i) => makeEntityId(f, data.features.indexOf(f)))
+      filtered.map((f) => makeEntityId(f, data.features.indexOf(f)))
     );
 
     entitiesRef.current.forEach((entity, entityId) => {

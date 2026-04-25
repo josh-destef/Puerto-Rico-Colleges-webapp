@@ -1,4 +1,4 @@
-import { useRef, useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import * as Cesium from 'cesium';
 import { GlobeViewer } from './components/globe/GlobeViewer';
 import { Sidebar } from './components/ui/Sidebar';

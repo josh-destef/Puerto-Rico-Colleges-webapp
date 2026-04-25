@@ -171,7 +171,7 @@ export function InfoPanel(_props: InfoPanelProps) {
               className="ip-system-link"
               onClick={() => flyToSystem(system.keywords)}
             >
-              ↗ View all {system.key ?? system.label.replace('Sistema ', '')} campuses
+              ↗ View all {system.label.replace('Sistema ', '')} campuses
             </button>
           </>
         ) : (
