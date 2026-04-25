@@ -1,0 +1,8 @@
+/* App-level layout */
+.app-root {
+  position: fixed;
+  inset: 0;
+  background: #0a0f1a;
+  font-family: Georgia, 'Times New Roman', serif;
+  overflow: hidden;
+}

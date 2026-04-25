@@ -1,0 +1,309 @@
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 240px;
+  background: #0d1420;
+  border-right: 1px solid rgba(255, 255, 255, 0.07);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  z-index: 100;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+/* ── Header ─────────────────────────────── */
+.sidebar-header {
+  padding: 22px 18px 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+  flex-shrink: 0;
+}
+
+.sidebar-title {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 19px;
+  font-weight: normal;
+  color: #e8e4dc;
+  letter-spacing: 0.01em;
+  margin: 0 0 2px;
+  line-height: 1.2;
+}
+
+.sidebar-subtitle {
+  font-size: 10px;
+  color: #4a5878;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  margin: 0 0 12px;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-weight: normal;
+}
+
+.sidebar-count-line {
+  margin-bottom: 14px;
+}
+
+.sidebar-count-num {
+  font-size: 22px;
+  font-weight: normal;
+  color: #a0adc8;
+  font-family: Georgia, 'Times New Roman', serif;
+  letter-spacing: -0.01em;
+}
+
+.sidebar-count-label {
+  font-size: 11px;
+  color: #4a5878;
+  letter-spacing: 0.04em;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+/* Search */
+.sidebar-search {
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  outline: none;
+  color: #e8e4dc;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 12px;
+  padding: 6px 0 7px;
+  letter-spacing: 0.02em;
+  transition: border-color 0.15s;
+}
+
+.sidebar-search::placeholder {
+  color: #4a5878;
+}
+
+.sidebar-search:focus {
+  border-bottom-color: rgba(74, 127, 212, 0.4);
+}
+
+/* ── Sections ────────────────────────────── */
+.sidebar-section {
+  padding: 14px 18px 12px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+  flex-shrink: 0;
+}
+
+.sidebar-section--grow {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  border-bottom: none;
+}
+
+.section-label {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 9px;
+  font-weight: normal;
+  color: #4a5878;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  margin-bottom: 10px;
+}
+
+/* ── Ownership rows ──────────────────────── */
+.ownership-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.ownership-row {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 6px 6px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: opacity 0.15s, background 0.15s;
+}
+
+.ownership-row:hover {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.ownership-row.dimmed {
+  opacity: 0.35;
+}
+
+.ownership-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.ownership-name {
+  font-size: 12px;
+  color: #a0adc8;
+  flex: 1;
+  font-family: Georgia, 'Times New Roman', serif;
+  letter-spacing: 0.01em;
+}
+
+.ownership-count {
+  font-size: 10px;
+  color: #4a5878;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+/* ── Program pills ───────────────────────── */
+.pill-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.program-pill {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 11px;
+  font-weight: normal;
+  padding: 4px 10px;
+  border-radius: 20px;
+  border: 1px solid;
+  cursor: pointer;
+  letter-spacing: 0.02em;
+  transition: opacity 0.15s, background 0.15s;
+}
+
+.program-pill:hover {
+  opacity: 0.75 !important;
+}
+
+.program-pill.pill-active {
+  opacity: 1;
+}
+
+.program-pill.pill-inactive {
+  opacity: 0.4;
+}
+
+/* ── Display toggles ─────────────────────── */
+.logic-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.toggle-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: default;
+}
+
+.toggle-label {
+  font-size: 12px;
+  color: #a0adc8;
+  font-family: Georgia, 'Times New Roman', serif;
+  letter-spacing: 0.01em;
+}
+
+.toggle-switch {
+  width: 32px;
+  height: 18px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 9px;
+  position: relative;
+  cursor: pointer;
+  transition: background 0.15s;
+  flex-shrink: 0;
+}
+
+.toggle-switch.on {
+  background: #4a7fd4;
+}
+
+.toggle-thumb {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background: #e8e4dc;
+  border-radius: 50%;
+  top: 3px;
+  left: 3px;
+  transition: transform 0.15s;
+}
+
+.toggle-switch.on .toggle-thumb {
+  transform: translateX(14px);
+}
+
+/* ── System navigator ────────────────────── */
+.systems-list {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  overflow-y: auto;
+  flex: 1;
+  padding-right: 2px;
+}
+
+.systems-list::-webkit-scrollbar { width: 3px; }
+.systems-list::-webkit-scrollbar-track { background: transparent; }
+.systems-list::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.08); border-radius: 3px; }
+
+.system-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+  border: none;
+  padding: 7px 6px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: opacity 0.15s, background 0.15s;
+  text-align: left;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+.system-btn:hover {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.system-name {
+  font-size: 12px;
+  color: #a0adc8;
+  letter-spacing: 0.01em;
+}
+
+.system-count-badge {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 2px 7px;
+  border-radius: 10px;
+  font-size: 10px;
+  color: #4a5878;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+/* ── Footer ──────────────────────────────── */
+.sidebar-footer {
+  padding: 12px 18px;
+  border-top: 1px solid rgba(255, 255, 255, 0.07);
+  flex-shrink: 0;
+}
+
+.reset-link {
+  font-size: 11px;
+  color: #3a4860;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-weight: normal;
+  padding: 0;
+  transition: opacity 0.15s;
+}
+
+.reset-link:hover {
+  opacity: 0.7;
+}
