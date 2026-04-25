@@ -1,0 +1,2269 @@
+﻿import type { InstitutionCollection } from '../types';
+
+export const institutionData: InstitutionCollection = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1605,
+          18.3839
+        ]
+      },
+      "properties": {
+        "id": null,
+        "name": "American University of Puerto Rico",
+        "name_scorecard": "American University of Puerto Rico",
+        "city": "BayamÃ³n",
+        "zip": "00960",
+        "website": "https://www.aupr.edu",
+        "is_main_campus": true,
+        "parent_id": null,
+        "ownership": "Private Non-Profit",
+        "level": "4-year",
+        "accreditor": "MSCHE",
+        "enrollment": null,
+        "active": false,
+        "data_source": "seed",
+        "majors": {
+          "nursing": "Closed in 2023",
+          "engineering": "Closed in 2023",
+          "humanities": "Closed in 2023",
+          "social_sciences": "Closed in 2023",
+          "bench_sciences": "Closed in 2023",
+          "business": "Closed in 2023",
+          "pre_law": "Closed in 2023",
+          "miscellaneous": "Closed in 2023",
+          "grad_programs": "Closed in 2023"
+        },
+        "flags": {
+          "has_nursing": true,
+          "has_engineering": true,
+          "has_humanities": true,
+          "has_business": true,
+          "has_grad": true,
+          "is_public": false,
+          "is_active": false,
+          "is_branch": false
+        },
+        "admission_rate": null,
+        "completion_rate": null,
+        "tuition_in_state": null,
+        "tuition_out_state": null,
+        "avg_net_price": null,
+        "median_debt": null,
+        "median_earnings_10yr": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1213,
+          18.3667
+        ]
+      },
+      "properties": {
+        "id": 241377,
+        "name": "Caribbean University",
+        "name_scorecard": "Caribbean University-Bayamon",
+        "city": "BayamÃ³n",
+        "zip": "00960",
+        "website": "https://www.caribbean.edu",
+        "is_main_campus": true,
+        "parent_id": null,
+        "ownership": "Private Non-Profit",
+        "level": "4-year",
+        "accreditor": "MSCHE",
+        "enrollment": 1850,
+        "active": true,
+        "data_source": "seed",
+        "majors": {
+          "nursing": "Nursing Science",
+          "engineering": "Bachelor of Science in Civil Engineering, Bachelor of Science in Electrical Engineering, Bachelor of Science in Industrial Engineering, Sciences with a Concentration in General Science,",
+          "humanities": null,
+          "social_sciences": "Arts in Education with a Concentration in Elementary Education                                                                                                         Arts in Education with a Concentration in Special Education                                                                                                                                                           Arts in Education in Physical Education Teaching, Sciences with a Concentration in Speech and Language Therapy,                                                                                                                      Arts in Social Work                                                                                                Arts in Criminal Justice  ",
+          "bench_sciences": "Computer Science in Computer Programming, Sciences with a Concentration in General Science, ",
+          "business": "Business Administration with a concentration in Accounting, Business Administration with a Concentration in Marketing, Business Administration with a Concentration in Management, ",
+          "pre_law": null,
+          "miscellaneous": "Office Systems Administration",
+          "grad_programs": "Masters: Education with a specialization in Educational Administration and Supervision, Education with a specialization in Special Education, Educational Technology in Instructional Systems, Master's Program in Business Administration with a Specialization in Human Resources, Nursing Science with a Specialization in Gerontology, Nursing Science with a Specialization in Neonatal Pediatrics, Arts in Education with a specialization in Museology, Arts in Education with a specialization in Art History, Arts in Education with a specialization in Archival Studies, Arts in Curriculum Education with specializations in: Mathematics, History, Spanish, Science, Primary Grades, Elementary Education and English*, Arts with a specialization in Criminal Justice\nDoctorate: PhD in Philosophy in Education with a specialization in Curriculum and Teaching"
+        },
+        "flags": {
+          "has_nursing": true,
+          "has_engineering": true,
+          "has_humanities": false,
+          "has_business": true,
+          "has_grad": true,
+          "is_public": false,
+          "is_active": true,
+          "is_branch": false
+        },
+        "admission_rate": null,
+        "completion_rate": 0.4255,
+        "tuition_in_state": 8844,
+        "tuition_out_state": 8844,
+        "avg_net_price": 4665,
+        "median_debt": 10500,
+        "median_earnings_10yr": 22842
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1171,
+          18.4664
+        ]
+      },
+      "properties": {
+        "id": 241296,
+        "name": "Centro de Estudios Avanzados de Puerto Rico y El Caribe",
+        "name_scorecard": "Centro de Estudios Avanzados de Puerto Rico y el Caribe",
+        "city": "San Juan",
+        "zip": "00901",
+        "website": "https://www.ceaprc.edu",
+        "is_main_campus": true,
+        "parent_id": null,
+        "ownership": "Private Non-Profit",
+        "level": "4-year",
+        "accreditor": "MSCHE",
+        "enrollment": 120,
+        "active": true,
+        "data_source": "seed",
+        "majors": {
+          "nursing": null,
+          "engineering": null,
+          "humanities": null,
+          "social_sciences": null,
+          "bench_sciences": null,
+          "business": null,
+          "pre_law": null,
+          "miscellaneous": null,
+          "grad_programs": "Masters:\nMaster's History of Puerto Rico and the Caribbean\nMaster in Archaeology of Puerto Rico and the Caribbean\nMaster in Puerto Rican and Caribbean Literature\nMaster of Arts with a specialization in Caribbean Art History and Visual Culture\nMaster in International Relations and Diplomacy\n\nDoctorate:\nDoctorate in History of Puerto Rico and the Caribbean\nDoctorate in Puerto Rican and Caribbean Literature"
+        },
+        "flags": {
+          "has_nursing": false,
+          "has_engineering": false,
+          "has_humanities": false,
+          "has_business": false,
+          "has_grad": true,
+          "is_public": false,
+          "is_active": true,
+          "is_branch": false
+        },
+        "admission_rate": null,
+        "completion_rate": null,
+        "tuition_in_state": null,
+        "tuition_out_state": null,
+        "avg_net_price": null,
+        "median_debt": null,
+        "median_earnings_10yr": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.0536,
+          18.4101
+        ]
+      },
+      "properties": {
+        "id": 241350,
+        "name": "Colegio Universitario de San Juan",
+        "name_scorecard": "Colegio Universitario de San Juan",
+        "city": "San Juan",
+        "zip": "00918",
+        "website": "https://www.cunj.edu.pr",
+        "is_main_campus": true,
+        "parent_id": null,
+        "ownership": "Public",
+        "level": "4-year",
+        "accreditor": "MSCHE",
+        "enrollment": 2100,
+        "active": true,
+        "data_source": "seed",
+        "majors": {
+          "nursing": "Nursing Science",
+          "engineering": "Engineering Technology in Sustainable Development",
+          "humanities": null,
+          "social_sciences": "Criminal Justice",
+          "bench_sciences": null,
+          "business": "Information Systems                     Computerized Accounting ",
+          "pre_law": null,
+          "miscellaneous": null,
+          "grad_programs": null
+        },
+        "flags": {
+          "has_nursing": true,
+          "has_engineering": true,
+          "has_humanities": false,
+          "has_business": true,
+          "has_grad": true,
+          "is_public": true,
+          "is_active": true,
+          "is_branch": false
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.0372,
+          18.2259
+        ]
+      },
+      "properties": {
+        "id": 241494,
+        "name": "Northbridge University - Columbia Central University",
+        "name_scorecard": "Columbia Central University",
+        "city": "Caguas",
+        "zip": "00726",
+        "website": "https://www.columbiacentral.edu",
+        "is_main_campus": true,
+        "parent_id": null,
+        "ownership": "Private For-Profit",
+        "level": "4-year",
+        "accreditor": "ACICS / MSCHE",
+        "enrollment": 1600,
+        "active": true,
+        "data_source": "seed",
+        "majors": {
+          "nursing": "Diagnostic Images\nMedical Sonography of Diagnostics",
+          "engineering": null,
+          "humanities": null,
+          "social_sciences": "Psycology                                                                                                                                    Science in liberal studies                                                                                       Social work                                  ",
+          "bench_sciences": "Information Technology\nNetworks and Security\n",
+          "business": "Business Administration ",
+          "pre_law": null,
+          "miscellaneous": "Cyber Security I                                    nformation Technology",
+          "grad_programs": "Business Administration \nNursing Science                                                              Information Techology "
+        },
+        "flags": {
+          "has_nursing": true,
+          "has_engineering": false,
+          "has_humanities": false,
+          "has_business": true,
+          "has_grad": true,
+          "is_public": false,
+          "is_active": true,
+          "is_branch": false
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.0796,
+          18.4486
+        ]
+      },
+      "properties": {
+        "id": 241503,
+        "name": "Conservatorio de MÃºsica de Puerto Rico",
+        "name_scorecard": "Conservatorio de Musica de Puerto Rico",
+        "city": "San Juan",
+        "zip": "00907",
+        "website": "https://cmpr.edu",
+        "is_main_campus": true,
+        "parent_id": null,
+        "ownership": "Public",
+        "level": "4-year",
+        "accreditor": "NASM / MSCHE",
+        "enrollment": 380,
+        "active": true,
+        "data_source": "seed",
+        "majors": {
+          "nursing": null,
+          "engineering": null,
+          "humanities": "Musical Theatre\nMusic in Composition\nMusic Therapy\nMusic Education\nMusic in Execution",
+          "social_sciences": null,
+          "bench_sciences": null,
+          "business": null,
+          "pre_law": null,
+          "miscellaneous": null,
+          "grad_programs": "Music - Caribian                                                                    Music - Production"
+        },
+        "flags": {
+          "has_nursing": false,
+          "has_engineering": false,
+          "has_humanities": true,
+          "has_business": false,
+          "has_grad": true,
+          "is_public": true,
+          "is_active": true,
+          "is_branch": false
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.0607,
+          18.4092
+        ]
+      },
+      "properties": {
+        "id": 499635,
+        "name": "EDP University",
+        "name_scorecard": "Edp University of Puerto Rico Inc-San Juan",
+        "city": "San Juan",
+        "zip": "00918",
+        "website": "https://edpuniversity.edu",
+        "is_main_campus": true,
+        "parent_id": null,
+        "ownership": "Private For-Profit",
+        "level": "4-year",
+        "accreditor": "MSCHE",
+        "enrollment": 2400,
+        "active": true,
+        "data_source": "seed",
+        "majors": {
+          "nursing": "Nursing Science",
+          "engineering": null,
+          "humanities": null,
+          "social_sciences": "Speech Therapy and Language",
+          "bench_sciences": "Natural SciencesInformation Technology Â– Network\nInformation Technology Sciences - Programming Forensic Sciences",
+          "business": "Business Administration \nAccounting ",
+          "pre_law": null,
+          "miscellaneous": "Political Science                                                  Interior Design and Decoration\nDigital Fashion Design",
+          "grad_programs": "\nBusiness Administration\nGovernment Affairs and Government Innovation\nInformation Systems\nInformation Security and Digital Fraud Research\nNaturopathic sciences\nNursing Sciences\nFashion Design and Marketing"
+        },
+        "flags": {
+          "has_nursing": true,
+          "has_engineering": false,
+          "has_humanities": false,
+          "has_business": true,
+          "has_grad": true,
+          "is_public": false,
+          "is_active": true,
+          "is_branch": false
+        },
+        "admission_rate": 0.725,
+        "completion_rate": null,
+        "tuition_in_state": 7050,
+        "tuition_out_state": 14125,
+        "avg_net_price": null,
+        "median_debt": 14000,
+        "median_earnings_10yr": 22844
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1159,
+          18.4682
+        ]
+      },
+      "properties": {
+        "id": 241951,
+        "name": "Escuela de Artes Plasticas y Diseno de Puerto Rico",
+        "name_scorecard": "Escuela de Artes Plasticas y Diseno de Puerto Rico",
+        "city": "San Juan",
+        "zip": "00902",
+        "website": "https://www.eap.edu",
+        "is_main_campus": true,
+        "parent_id": null,
+        "ownership": "Public",
+        "level": "4-year",
+        "accreditor": "NASAD / MSCHE",
+        "enrollment": 560,
+        "active": true,
+        "data_source": "seed",
+        "majors": {
+          "nursing": null,
+          "engineering": null,
+          "humanities": "Sculpture\nPainting",
+          "social_sciences": "Art Education",
+          "bench_sciences": null,
+          "business": null,
+          "pre_law": null,
+          "miscellaneous": "Graphic Arts\nGraphic Design\nIndustrial Design\nFashion Design\nImage and Movement",
+          "grad_programs": null
+        },
+        "flags": {
+          "has_nursing": false,
+          "has_engineering": false,
+          "has_humanities": true,
+          "has_business": false,
+          "has_grad": true,
+          "is_public": true,
+          "is_active": true,
+          "is_branch": false
+        },
+        "admission_rate": null,
+        "completion_rate": 0.4478,
+        "tuition_in_state": 4902,
+        "tuition_out_state": 8502,
+        "avg_net_price": 5669,
+        "median_debt": null,
+        "median_earnings_10yr": 21790,
+        "open_admission": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.055,
+          18.2313
+        ]
+      },
+      "properties": {
+        "id": 366711,
+        "name": "Escuela de Medicina San Juan Bautista",
+        "name_scorecard": "San Juan Bautista School of Medicine",
+        "city": "Caguas",
+        "zip": "00727",
+        "website": "https://www.sanjuanbautista.edu",
+        "is_main_campus": true,
+        "parent_id": null,
+        "ownership": "Private Non-Profit",
+        "level": "4-year",
+        "accreditor": "LCME / MSCHE",
+        "enrollment": 290,
+        "active": true,
+        "data_source": "seed",
+        "majors": {
+          "nursing": "Nursing Sciemce",
+          "engineering": null,
+          "humanities": null,
+          "social_sciences": null,
+          "bench_sciences": null,
+          "business": null,
+          "pre_law": null,
+          "miscellaneous": null,
+          "grad_programs": "Doctor:                                                                                      Medicine                                                                                Nursing Practice in Adult-Gerontology Primary Care Nurse Practitioner                                                                 Masters:                                                                                      Public Health                                                  "
+        },
+        "flags": {
+          "has_nursing": true,
+          "has_engineering": false,
+          "has_humanities": false,
+          "has_business": false,
+          "has_grad": true,
+          "is_public": false,
+          "is_active": true,
+          "is_branch": false
+        },
+        "admission_rate": 0.951,
+        "completion_rate": 0.5456,
+        "tuition_in_state": 8082,
+        "tuition_out_state": 20682,
+        "avg_net_price": 10229,
+        "median_debt": 17350,
+        "median_earnings_10yr": 62908
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.0564,
+          18.4113
+        ]
+      },
+      "properties": {
+        "id": 243577,
+        "name": "Universidad PolitÃ©cnica de Puerto Rico",
+        "name_scorecard": "Universidad Politecnica de Puerto Rico",
+        "city": "San Juan",
+        "zip": "00918",
+        "website": "https://www.pupr.edu",
+        "is_main_campus": true,
+        "parent_id": null,
+        "ownership": "Private Non-Profit",
+        "level": "4-year",
+        "accreditor": "ABET / MSCHE",
+        "enrollment": 3200,
+        "active": true,
+        "data_source": "seed",
+        "majors": {
+          "nursing": null,
+          "engineering": "Biomedical Engineering                           Chemical Engineering                         Civi Engineering                          Computer Engineering                Electrcical Engineering Environmental Engineering Industrial Engineering               Mechanical Engineering",
+          "humanities": null,
+          "social_sciences": null,
+          "bench_sciences": "Computer Science ",
+          "business": "Accounting                                                Business management                                        ",
+          "pre_law": null,
+          "miscellaneous": "Architecture                                     Construction Management               Marketing                                                        Interior Design                                                      Land Surveying and Mappring",
+          "grad_programs": "Masters:                                                                                   Education In Science and Math                                 Mechanical Engineering                                        Manufacturing Engineering                                          Manufacture Competitiveness                                Landscape Architecture                                               Geospatial Science and Technology                   Envionmental Management                                       Engineering Manament                                                    Electrical Engineering                                                        Computer Science                                                          Computer Engineering                                                                 Civil Engineering                                                                Business Administration                                                 Biomedical Engineering                                                       Doctorate:                                                                          Engineering & Applied Science"
+        },
+        "flags": {
+          "has_nursing": false,
+          "has_engineering": true,
+          "has_humanities": false,
+          "has_business": true,
+          "has_grad": true,
+          "is_public": false,
+          "is_active": true,
+          "is_branch": false
+        },
+        "admission_rate": null,
+        "completion_rate": 0.2808,
+        "tuition_in_state": 9870,
+        "tuition_out_state": 9870,
+        "avg_net_price": 17540,
+        "median_debt": 22564,
+        "median_earnings_10yr": 47540
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.6186,
+          17.9975
+        ]
+      },
+      "properties": {
+        "id": 243043,
+        "name": "Ponce Health Sciences University",
+        "name_scorecard": "Ponce Health Sciences University",
+        "city": "Ponce",
+        "zip": "00716",
+        "website": "https://www.psm.edu",
+        "is_main_campus": true,
+        "parent_id": null,
+        "ownership": "Private Non-Profit",
+        "level": "4-year",
+        "accreditor": "MSCHE",
+        "enrollment": 780,
+        "active": true,
+        "data_source": "seed",
+        "majors": {
+          "nursing": "Nusring Science ",
+          "engineering": null,
+          "humanities": null,
+          "social_sciences": null,
+          "bench_sciences": null,
+          "business": null,
+          "pre_law": null,
+          "miscellaneous": null,
+          "grad_programs": "Masters ;                                                                                    Public Health                                                                     International health                                                                          Medical Science                                                                   School Psycology                                                              Doctorate:                                                                          Clinical Psycology                                                        Biomedical Science"
+        },
+        "flags": {
+          "has_nursing": true,
+          "has_engineering": false,
+          "has_humanities": false,
+          "has_business": false,
+          "has_grad": true,
+          "is_public": false,
+          "is_active": true,
+          "is_branch": false
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.6147,
+          18.011
+        ]
+      },
+      "properties": {
+        "id": 241410,
+        "name": "Pontificia Universidad CatÃ³lica de Puerto Rico, Ponce (main campus)",
+        "name_scorecard": "Pontifical Catholic University of Puerto Rico-Ponce",
+        "city": "Ponce",
+        "zip": "00717",
+        "website": "https://www.pucpr.edu",
+        "is_main_campus": true,
+        "parent_id": null,
+        "ownership": "Private Non-Profit",
+        "level": "4-year",
+        "accreditor": "MSCHE",
+        "enrollment": 8100,
+        "active": true,
+        "data_source": "seed",
+        "majors": {
+          "nursing": "Nursing",
+          "engineering": null,
+          "humanities": "Theatre and performing arts\nFine arts\nPolitical sciences\nPolitical Science and Law\nHispanic Studies\nPhilosophy\nFrench\nHistory\nEnglish\nMusic\nLiberal Studies ",
+          "social_sciences": "Bachelor of Arts in Fashion Design Universal\nBachelor of Science in Sports in Physical Conditioning (PHCO)\nBachelor of Science in Speech Therapy (BS-SPTH)\nBachelor of Science in Elementary Education (BSEE):\n\n    Visual Arts  (BSEE-VISU)\n    K-12 Special Education (BSEE-SPED)\n    Physical Education (BSEE-PHED)\n    General Education (BSEE-GEED)\n    Primary Education (BSEE-EACH)\n    English (BSEE-ENGL)\n    Music (BSEE-MUSI)\n\nBachelor of Science in Secondary Education (BSSE):\n\n    Family and Consumer Sciences (BSSE-FACO)\n    Visual Arts (BSSE-VISU)\n    Biology (BSSE-BIOL)\n    General Sciences (BSSE-GESC)\n    Physical Education (BSEE PHED)\n    Spanish (BSSE-SPAN)\n    History (BSSE-HIST)\n    English (BSSE-ENGL)\n    Mathematics (BSSE-MATH)\n    Music (BSSE-MUSI)\n    Chemistry (BSSE-CHEM)                           Sociology\nCriminal Investigation                                            Public Administration and Labor Relations\nEmergency Management and Disaster Administration\nCriminology\nSocial Work\nPsychology",
+          "bench_sciences": "Biology\nBiotechnology\nEnvironmental Sciences\nBiomedical Sciences\nMath\nChemistry\nMedical Technology (BSMT)\nHealth Sciences with a concentration in Non-Invasive Cardiovascular Technology",
+          "business": "Office Management\nAccounting\nPublic Accounting\nInternational trade\nBusiness Law\nEntrepreneurship\nTourism Entrepreneurship\nGeneral Studies in Commerce\nFinance\nManagement\nMedia in Business\nMarketing (Joins August 2016 to January 2023)\nDigital Marketing (Joined August 2023 to present)\nRadio and Television Production\nAdvertising\nInternational Public Relations\nInformation Systems",
+          "pre_law": "Pre-Legal Studies",
+          "miscellaneous": "Image and Movement                              Human Resources",
+          "grad_programs": "Masters: General Trade\nInternational trade\nAccounting\nFinance\nManagement\nMarketing\nHuman Resources\nMaster of Science with a specialization in Integrated Communications\nCombined Master of Business Administration and Juris Doctor Program\nChemistry\nEnvironmental Sciences\nBiotechnology\nIntegrated and Applied Neurosciences:\nNeurobiology\nClinical Neuroscience\nCognitive Neuroscience\nNursing Science with a specialization in:\nMental Health and Psychiatric Nursing Medical-SurgicalHispanic Studies  (Thesis)    (Dissertation)\nPainting and Drawing\nSocial Work with a specialization in Clinical Area (Arecibo)\nSocial Sciences with a specialization in Criminology (MayagÃ¼ez) \n    Curriculum and Teaching  \n    Curriculum and Educational Therapy\n    Professional Counseling\n    Business Education and Office Systems\n    Teaching English as a Second Language\n    Educational Management and Leadership\n    School Psychology\n    Sciences in Speech-Language Pathology\n    Library Services and Information TechnologyPublic Administration\nCriminology\nClinical Rehabilitation Counseling   ............ Doctorate:Business Administration (in Ponce and at the facilities of the Central University of BayamÃ³n)            Human Disability (Ponce)                                                       Curriculum and Teaching\nEducational Management\nProfessional CounselingIndustrial/Organizational Psychology\nClinical Psychology\nDoctorate in Psychology with a specialization in Clinical Psychology"
+        },
+        "flags": {
+          "has_nursing": true,
+          "has_engineering": false,
+          "has_humanities": true,
+          "has_business": true,
+          "has_grad": true,
+          "is_public": false,
+          "is_active": true,
+          "is_branch": false
+        },
+        "admission_rate": 0.9808,
+        "completion_rate": 0.4859,
+        "tuition_in_state": 6650,
+        "tuition_out_state": 6650,
+        "avg_net_price": 13192,
+        "median_debt": 15500,
+        "median_earnings_10yr": 24908
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.7229,
+          18.4726
+        ]
+      },
+      "properties": {
+        "id": 241286,
+        "name": "Pontificia Universidad CatÃ³lica de Puerto Rico, Arecibo",
+        "name_scorecard": "Pontifical Catholic University of Puerto Rico-Arecibo",
+        "city": "Arecibo",
+        "zip": "00614",
+        "website": "https://www.pucpr.edu/arecibo",
+        "is_main_campus": false,
+        "parent_id": 243197,
+        "ownership": "Private Non-Profit",
+        "level": "4-year",
+        "accreditor": "MSCHE",
+        "enrollment": 1200,
+        "active": true,
+        "data_source": "seed",
+        "majors": {
+          "nursing": null,
+          "engineering": null,
+          "humanities": null,
+          "social_sciences": "Psycology                                                                                        Science in liberal studies                                                                                       Social work                                                                                                          Elementary Education - General Education\n    Elementary Education Â– General KÂ–5\n    Elementary Education Â– Special Education \n    Elementary Education Â– Special Education: Autism \n    Elementary Education Â– English Education\n    BachelorÂ’s in Human Resources\n    BachelorÂ’s in Human Resources (Online)\n    BachelorÂ’s in Management (Online)\n    Secondary Education Â– History Education\n    Secondary Education Â– Biology Education \n    Bachelor of Science in Speech and Language Therapy",
+          "bench_sciences": "Biomedical Sciences Biology    Biotechnology    ",
+          "business": "Accounting                                             Businissess Administration ",
+          "pre_law": null,
+          "miscellaneous": null,
+          "grad_programs": "Masters:\nAccounting\nFinance\nManagement\nHuman Resources\nMaster of Social Work with a Clinical Specialization Â– Version 1\nMaster of Social Work with a Clinical Specialization Â– Version 2\nMasterÂ’s Degree in Psychology\n        Biosciences \n        Clinical Psychology \nPhD:\n         Doctor of Psychology (Psy.D.) with a Specialization in Clinical Psychology                                        Juris Doctor"
+        },
+        "flags": {
+          "has_nursing": false,
+          "has_engineering": false,
+          "has_humanities": false,
+          "has_business": true,
+          "has_grad": true,
+          "is_public": false,
+          "is_active": true,
+          "is_branch": true
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.138,
+          18.202
+        ]
+      },
+      "properties": {
+        "id": 243586,
+        "name": "Pontificia Universidad CatÃ³lica de Puerto Rico, MayagÃ¼ez",
+        "name_scorecard": "Pontifical Catholic University of Puerto Rico-Mayaguez",
+        "city": "MayagÃ¼ez",
+        "zip": "00681",
+        "website": "https://www.pucpr.edu/mayaguez",
+        "is_main_campus": false,
+        "parent_id": 243197,
+        "ownership": "Private Non-Profit",
+        "level": "4-year",
+        "accreditor": "MSCHE",
+        "enrollment": 950,
+        "active": true,
+        "data_source": "seed",
+        "majors": {
+          "nursing": null,
+          "engineering": null,
+          "humanities": null,
+          "social_sciences": "Criminal Investigation                                                           Psychology\nForensic Psychology                                                                       Emergency Management and Disaster Administration\nCriminology\nSocial WorkSpecial Education (Moratorium)\nPrimary Ed -Physical Education (Moratorium)\nPrimary Education - English                                                        Secondary Ed - Physical Education (Moratorium)\nSecondary Education - English                                                       Sciences in Speech-Language Therapy\n",
+          "bench_sciences": "Biomedical Sciences\nBiology",
+          "business": "Accounting\nPublic Accounting\nEntrepreneurship\nManagement (also available online)\nHotel and Restaurant Management\nBusiness Media\nDigital Marketing\nInformation Systems",
+          "pre_law": null,
+          "miscellaneous": "Human Resources (also available online)\nCulinary Arts ",
+          "grad_programs": "Human Resources\nAccounting                                                                                                Digital Information Technology                                                Clinical Area (54 CRS)\nClinical Area (40 CRS)                                                    Criminology                                                                              Professional Counseling\nEducational Management and Leadership\nPrimary Education\n"
+        },
+        "flags": {
+          "has_nursing": false,
+          "has_engineering": false,
+          "has_humanities": false,
+          "has_business": true,
+          "has_grad": true,
+          "is_public": false,
+          "is_active": true,
+          "is_branch": true
+        },
+        "admission_rate": 0.9917,
+        "completion_rate": 0.3989,
+        "tuition_in_state": 6550,
+        "tuition_out_state": 6550,
+        "avg_net_price": 11502,
+        "median_debt": 15500,
+        "median_earnings_10yr": 24908
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.1397,
+          18.2108
+        ]
+      },
+      "properties": {
+        "id": 241191,
+        "name": "Universidad Adventista de las Antillas",
+        "name_scorecard": "Universidad Adventista de las Antillas",
+        "city": "MayagÃ¼ez",
+        "zip": "00681",
+        "website": "https://www.uaa.edu",
+        "is_main_campus": true,
+        "parent_id": null,
+        "ownership": "Private Non-Profit",
+        "level": "4-year",
+        "accreditor": "MSCHE",
+        "enrollment": 1100,
+        "active": true,
+        "data_source": "seed",
+        "majors": {
+          "nursing": "Nursing",
+          "engineering": null,
+          "humanities": null,
+          "social_sciences": "Psycology                                                                                           Education",
+          "bench_sciences": "Biology \nComputer Science Cardiopulmonary Sciences",
+          "business": "Accounting\nBusiness Management\nComputerized Information Systems",
+          "pre_law": null,
+          "miscellaneous": "Desing and Digital Arts\nMarketing in Digital Media               Pastoral Theology ",
+          "grad_programs": "Education\nSpecial Education\nEducation Leadership \nNursing\nBusiness Administration"
+        },
+        "flags": {
+          "has_nursing": true,
+          "has_engineering": false,
+          "has_humanities": false,
+          "has_business": true,
+          "has_grad": true,
+          "is_public": false,
+          "is_active": true,
+          "is_branch": false
+        },
+        "admission_rate": null,
+        "completion_rate": 0.3636,
+        "tuition_in_state": 8350,
+        "tuition_out_state": 8350,
+        "avg_net_price": 9919,
+        "median_debt": 15750,
+        "median_earnings_10yr": 28465,
+        "open_admission": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.1405,
+          18.2014
+        ]
+      },
+      "properties": {
+        "id": 241210,
+        "name": "Universidad Albizu - MayagÃ¼ez",
+        "name_scorecard": "Carlos Albizu University-Mayaguez",
+        "city": "MayagÃ¼ez",
+        "zip": "00681",
+        "website": "https://www.albizu.edu/Mayaguez",
+        "is_main_campus": false,
+        "parent_id": 240372,
+        "ownership": "Private Non-Profit",
+        "level": "4-year",
+        "accreditor": "APA / MSCHE",
+        "enrollment": 580,
+        "active": true,
+        "data_source": "seed",
+        "majors": {
+          "nursing": null,
+          "engineering": null,
+          "humanities": null,
+          "social_sciences": "Psychology\nSpeech and Language Therapy\nCyberpsychology",
+          "bench_sciences": null,
+          "business": null,
+          "pre_law": null,
+          "miscellaneous": null,
+          "grad_programs": "Masters:\nAutism and Other Neurodevelopmental\nDisorders\nClinical Psychology\nCounseling Psychology\nIndustrial/Organizational Psychology\nNeuropsychology (on-line)\nSchool Psychology\nSpeech and Language Pathology\n\nDoctors:\nClinical Psychology\nIndustrial/Organizational Psychology\nPsychology with a Specialization in\nConsulting, Research, and Teaching\nDoctor of Psychology (Psy.D.) - Clinical Psychology\nCounseling Psychology"
+        },
+        "flags": {
+          "has_nursing": false,
+          "has_engineering": false,
+          "has_humanities": false,
+          "has_business": false,
+          "has_grad": true,
+          "is_public": false,
+          "is_active": true,
+          "is_branch": true
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1146,
+          18.4658
+        ]
+      },
+      "properties": {
+        "id": 241331,
+        "name": "Universidad Albizu - San Juan",
+        "name_scorecard": "Carlos Albizu University-San Juan",
+        "city": "San Juan",
+        "zip": "00901",
+        "website": "https://www.albizu.edu",
+        "is_main_campus": true,
+        "parent_id": null,
+        "ownership": "Private Non-Profit",
+        "level": "4-year",
+        "accreditor": "APA / MSCHE",
+        "enrollment": 900,
+        "active": true,
+        "data_source": "seed",
+        "majors": {
+          "nursing": null,
+          "engineering": null,
+          "humanities": null,
+          "social_sciences": "Psychology\nSpeech and Language Therapy",
+          "bench_sciences": null,
+          "business": null,
+          "pre_law": null,
+          "miscellaneous": "Culinary Management",
+          "grad_programs": "Masters:\nAutism and Other Neurodevelopmental\nDisorders\nCounseling Psychology\nIndustrial/Organizational Psychology\nSchool Psychology\nSpeech and Language Pathology\n\nDoctors:\nIndustrial/Organizational Psychology\nClinical Psychology\nCounseling Psychology"
+        },
+        "flags": {
+          "has_nursing": false,
+          "has_engineering": false,
+          "has_humanities": false,
+          "has_business": false,
+          "has_grad": true,
+          "is_public": false,
+          "is_active": true,
+          "is_branch": false
+        },
+        "admission_rate": null,
+        "completion_rate": 0.6703,
+        "tuition_in_state": 8505,
+        "tuition_out_state": 8505,
+        "avg_net_price": 9732,
+        "median_debt": 5500,
+        "median_earnings_10yr": 41544,
+        "open_admission": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.0481,
+          18.3584
+        ]
+      },
+      "properties": {
+        "id": 243349,
+        "name": "UAGM - Cupey (Main)",
+        "name_scorecard": "Universidad Ana G. Mendez-Cupey Campus",
+        "city": "San Juan",
+        "zip": "00928",
+        "website": "https://www.uagm.edu",
+        "is_main_campus": true,
+        "parent_id": 243349,
+        "ownership": "Private Non-Profit",
+        "level": "4-year",
+        "accreditor": "MSCHE",
+        "enrollment": 4600,
+        "active": true,
+        "data_source": "seed",
+        "majors": {
+          "nursing": "Nursing",
+          "engineering": "Electrical Engineering\nComputer Engineering Science\nCivil Engineering\n Mechanical Engineering       Electronic Engineering Technology Â– Avionics",
+          "humanities": null,
+          "social_sciences": "Education with a concentration in K-12 Special Education\nSecondary Education with a concentration in Spanish\nSocial Sciences with a concentration in Psychology\nGeneral Social Sciences\nSecondary Education with a concentration in History\nNatural Sciences with a concentration in Respiratory Therapy\nScience in Speech-Language Therapy\nTeaching English as a Second Language K-12\nSocial Work\nArts with a concentration in Sports and Personal Training\nSocial Communication on the Net\nPublic Relations and Advertising\nSecondary Education with a concentration in Biology\nCriminal Justice and Criminology (Regular)\nSecondary Education with a concentration in Mathematics\nCommunications\nSecondary Education with a concentration in General Science\nSecondary Education with a concentration in Industrial Vocational\nExercise Science and Health Promotion\nPublic Safety\nSecondary Education with a concentration in Chemistry\nDigital Production\nFilm Production, Videos and Multimedia                                            Health Services Management",
+          "bench_sciences": "Industrial and Management Engineering\nMedical Technology\nGeneral Science\nComputer Science \nChemistry\nCellular and Molecular Biology\nGeneral Medical Sonography Â– Vascular Technology and Adult Echocardiography\nVeterinary Technology\nBiomedicine\nNutritional Sciences\nMicrobiology\nBiotechnology",
+          "business": "Marketing\nBusiness Administration \nBusiness Management\nFinance and Economics\nNetwork Administration\nInternational Logistics Management\nAccounting\nEntrepreneurship\nAdministrative Secretarial",
+          "pre_law": null,
+          "miscellaneous": "Aerospace Technology and Drones (UAS)\nRespiratory Therapy\nComputed Tomography and Magnetic Resonance Imaging",
+          "grad_programs": "Master of Science in Preclinical Sciences\nPsychology with a Specialty in Psychological Counseling\nMBA with a Specialty in Taxation\nEducation with a Specialty in Counseling\nEducation with a Specialty in Educational Administration and Supervision\nEducation with a Specialty in Special Education\nMBA with a Specialty in Human Resources\nPublic Health\nMBA with a Specialty in Accounting\nCriminal Justice and Criminology\nEnvironmental Sciences with a Specialization in Environmental Analysis\nMBA with a Specialty in Information Security Management\nMBA with a Specialty in Global Business\nScience with a Specialty in Telecommunications Systems and Network Administration\nEnvironmental Sciences with a Specialization in Environmental Management\nEducation with a Specialty in Curriculum and Instruction\nPublic Affairs with a Specialty in Conflict Mediation\nAccounting Â– MAcc (Combined Degree)\nMaster of Science in Innovation and Entrepreneurship\nMaster of Science in Nutrition\nMaster of Science in Nutrition and Dietetics Â– Coordinated Program\nMBA with a Specialty in Finance\nMBA with a Specialty in Management\nSocial Work with a Specialty in Family Social Work\nMBA with a Specialty in Management and Strategic Leadership\nEducation with a Specialty in Teaching English as a Second Language\nMaster of Arts in Education in School and Child Psychology\nMBA with a Specialty in Marketing\nMaster of Science in Accounting (MSA)\nSocial Work with a Specialty in Forensic Social Work\nHealth Services Administration with a Specialty in Health Services Management\nMaster of Science in Engineering Management\nMaster of Science in Brand Management and Digital Marketing\nEducation with a Specialty in Teaching Fine Arts\nClinical Social Work\nMaster of Science in Nursing (MSN) with a Specialty in Case Management and Secondary Role\nPublic Affairs with a Specialty in Human Services\nMBA with a Specialty in Quality Management\nMaster of Science in Speech-Language Pathology\nPublic Affairs with a Specialty in Public Policy\nMaster of Arts in Cultural Studies with a Specialty in General Cultural Studies\nMBA with a Specialty in Project Management\nMaster of Science in Information Technology with a Specialty in Cybersecurity\nEducation in Curriculum and Instruction (Various Emphases)\nMBA with a Specialty in Supply Chain and Materials Management\nSpecial Education with a Specialty in Autism or KÂ–12 Special Education\nMaster of Arts in Education with a Specialty in Adapted Physical Education\nPhysical Education with a Specialty in Sports Training / Health Promotion / Athletic Therapy\nProfessional Master of Science in Industrial Biotechnology\nEducation with a Specialty in Montessori Curriculum Development and Instruction\nMaster of Science in Mechanical Engineering with a Specialty in Alternative Energy\nStrategic Tourism\nMaster of Science in Environmental Management with a Specialty in Conservation and Natural Resource Management\nInstructional Design and Technology Integration with e Learning\nMaster of Science in Nursing (MSN) with a Specialty in Family Nurse Practitioner\nStrategic Tourism with a Specialty in Gastronomic Tourism\nMaster of Science in Environmental Management with a Specialty in Environmental Risk Assessment and Management                                                                   Doctorate: \nPh.D. in Toxicology and Drug Design\nInterdisciplinary Studies of Puerto Rico and the Caribbean\nNaturopathic Medicine\nEducational Leadership\nNursing Science Â– Vulnerable Populations"
+        },
+        "flags": {
+          "has_nursing": true,
+          "has_engineering": true,
+          "has_humanities": false,
+          "has_business": true,
+          "has_grad": true,
+          "is_public": false,
+          "is_active": true,
+          "is_branch": false
+        },
+        "admission_rate": null,
+        "completion_rate": null,
+        "tuition_in_state": null,
+        "tuition_out_state": null,
+        "avg_net_price": null,
+        "median_debt": null,
+        "median_earnings_10yr": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.9783,
+          18.2543
+        ]
+      },
+      "properties": {
+        "id": 243601,
+        "name": "UAGM - Gurabo",
+        "name_scorecard": "Universidad Ana G. Mendez-Cupey Campus",
+        "city": "Gurabo",
+        "zip": "00928",
+        "website": "https://www.uagm.edu",
+        "is_main_campus": false,
+        "parent_id": 243349,
+        "ownership": "Private Non-Profit",
+        "level": "4-year",
+        "accreditor": "MSCHE",
+        "enrollment": 7500,
+        "active": true,
+        "data_source": "seed",
+        "majors": {
+          "nursing": "Nursing",
+          "engineering": "Electrical Engineering\nComputer Engineering Science\nCivil Engineering\n Mechanical Engineering       Electronic Engineering Technology Â– Avionics",
+          "humanities": null,
+          "social_sciences": "Education with a concentration in K-12 Special Education\nSecondary Education with a concentration in Spanish\nSocial Sciences with a concentration in Psychology\nGeneral Social Sciences\nSecondary Education with a concentration in History\nNatural Sciences with a concentration in Respiratory Therapy\nScience in Speech-Language Therapy\nTeaching English as a Second Language K-12\nSocial Work\nArts with a concentration in Sports and Personal Training\nSocial Communication on the Net\nPublic Relations and Advertising\nSecondary Education with a concentration in Biology\nCriminal Justice and Criminology (Regular)\nSecondary Education with a concentration in Mathematics\nCommunications\nSecondary Education with a concentration in General Science\nSecondary Education with a concentration in Industrial Vocational\nExercise Science and Health Promotion\nPublic Safety\nSecondary Education with a concentration in Chemistry\nDigital Production\nFilm Production, Videos and Multimedia                                            Health Services Management",
+          "bench_sciences": "Industrial and Management Engineering\nMedical Technology\nGeneral Science\nComputer Science \nChemistry\nCellular and Molecular Biology\nGeneral Medical Sonography Â– Vascular Technology and Adult Echocardiography\nVeterinary Technology\nBiomedicine\nNutritional Sciences\nMicrobiology\nBiotechnology",
+          "business": "Marketing\nBusiness Administration \nBusiness Management\nFinance and Economics\nNetwork Administration\nInternational Logistics Management\nAccounting\nEntrepreneurship\nAdministrative Secretarial",
+          "pre_law": null,
+          "miscellaneous": "Aerospace Technology and Drones (UAS)\nRespiratory Therapy\nComputed Tomography and Magnetic Resonance Imaging",
+          "grad_programs": "Master of Science in Preclinical Sciences\nPsychology with a Specialty in Psychological Counseling\nMBA with a Specialty in Taxation\nEducation with a Specialty in Counseling\nEducation with a Specialty in Educational Administration and Supervision\nEducation with a Specialty in Special Education\nMBA with a Specialty in Human Resources\nPublic Health\nMBA with a Specialty in Accounting\nCriminal Justice and Criminology\nEnvironmental Sciences with a Specialization in Environmental Analysis\nMBA with a Specialty in Information Security Management\nMBA with a Specialty in Global Business\nScience with a Specialty in Telecommunications Systems and Network Administration\nEnvironmental Sciences with a Specialization in Environmental Management\nEducation with a Specialty in Curriculum and Instruction\nPublic Affairs with a Specialty in Conflict Mediation\nAccounting Â– MAcc (Combined Degree)\nMaster of Science in Innovation and Entrepreneurship\nMaster of Science in Nutrition\nMaster of Science in Nutrition and Dietetics Â– Coordinated Program\nMBA with a Specialty in Finance\nMBA with a Specialty in Management\nSocial Work with a Specialty in Family Social Work\nMBA with a Specialty in Management and Strategic Leadership\nEducation with a Specialty in Teaching English as a Second Language\nMaster of Arts in Education in School and Child Psychology\nMBA with a Specialty in Marketing\nMaster of Science in Accounting (MSA)\nSocial Work with a Specialty in Forensic Social Work\nHealth Services Administration with a Specialty in Health Services Management\nMaster of Science in Engineering Management\nMaster of Science in Brand Management and Digital Marketing\nEducation with a Specialty in Teaching Fine Arts\nClinical Social Work\nMaster of Science in Nursing (MSN) with a Specialty in Case Management and Secondary Role\nPublic Affairs with a Specialty in Human Services\nMBA with a Specialty in Quality Management\nMaster of Science in Speech-Language Pathology\nPublic Affairs with a Specialty in Public Policy\nMaster of Arts in Cultural Studies with a Specialty in General Cultural Studies\nMBA with a Specialty in Project Management\nMaster of Science in Information Technology with a Specialty in Cybersecurity\nEducation in Curriculum and Instruction (Various Emphases)\nMBA with a Specialty in Supply Chain and Materials Management\nSpecial Education with a Specialty in Autism or KÂ–12 Special Education\nMaster of Arts in Education with a Specialty in Adapted Physical Education\nPhysical Education with a Specialty in Sports Training / Health Promotion / Athletic Therapy\nProfessional Master of Science in Industrial Biotechnology\nEducation with a Specialty in Montessori Curriculum Development and Instruction\nMaster of Science in Mechanical Engineering with a Specialty in Alternative Energy\nStrategic Tourism\nMaster of Science in Environmental Management with a Specialty in Conservation and Natural Resource Management\nInstructional Design and Technology Integration with e Learning\nMaster of Science in Nursing (MSN) with a Specialty in Family Nurse Practitioner\nStrategic Tourism with a Specialty in Gastronomic Tourism\nMaster of Science in Environmental Management with a Specialty in Environmental Risk Assessment and Management                                                                   Doctorate: \nPh.D. in Toxicology and Drug Design\nInterdisciplinary Studies of Puerto Rico and the Caribbean\nNaturopathic Medicine\nEducational Leadership\nNursing Science Â– Vulnerable Populations"
+        },
+        "flags": {
+          "has_nursing": true,
+          "has_engineering": true,
+          "has_humanities": false,
+          "has_business": true,
+          "has_grad": true,
+          "is_public": false,
+          "is_active": true,
+          "is_branch": true
+        },
+        "admission_rate": null,
+        "completion_rate": null,
+        "tuition_in_state": null,
+        "tuition_out_state": null,
+        "avg_net_price": null,
+        "median_debt": null,
+        "median_earnings_10yr": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.9693,
+          18.401
+        ]
+      },
+      "properties": {
+        "id": 243258,
+        "name": "UAGM - Carolina",
+        "name_scorecard": "Universidad Ana G. Mendez-Cupey Campus",
+        "city": "Carolina",
+        "zip": "00928",
+        "website": "https://www.uagm.edu",
+        "is_main_campus": false,
+        "parent_id": 243349,
+        "ownership": "Private Non-Profit",
+        "level": "4-year",
+        "accreditor": "MSCHE",
+        "enrollment": 4100,
+        "active": true,
+        "data_source": "seed",
+        "majors": {
+          "nursing": "Nursing",
+          "engineering": "Electrical Engineering\nComputer Engineering Science\nCivil Engineering\n Mechanical Engineering       Electronic Engineering Technology Â– Avionics",
+          "humanities": null,
+          "social_sciences": "Education with a concentration in K-12 Special Education\nSecondary Education with a concentration in Spanish\nSocial Sciences with a concentration in Psychology\nGeneral Social Sciences\nSecondary Education with a concentration in History\nNatural Sciences with a concentration in Respiratory Therapy\nScience in Speech-Language Therapy\nTeaching English as a Second Language K-12\nSocial Work\nArts with a concentration in Sports and Personal Training\nSocial Communication on the Net\nPublic Relations and Advertising\nSecondary Education with a concentration in Biology\nCriminal Justice and Criminology (Regular)\nSecondary Education with a concentration in Mathematics\nCommunications\nSecondary Education with a concentration in General Science\nSecondary Education with a concentration in Industrial Vocational\nExercise Science and Health Promotion\nPublic Safety\nSecondary Education with a concentration in Chemistry\nDigital Production\nFilm Production, Videos and Multimedia                                            Health Services Management",
+          "bench_sciences": "Industrial and Management Engineering\nMedical Technology\nGeneral Science\nComputer Science \nChemistry\nCellular and Molecular Biology\nGeneral Medical Sonography Â– Vascular Technology and Adult Echocardiography\nVeterinary Technology\nBiomedicine\nNutritional Sciences\nMicrobiology\nBiotechnology",
+          "business": "Marketing\nBusiness Administration \nBusiness Management\nFinance and Economics\nNetwork Administration\nInternational Logistics Management\nAccounting\nEntrepreneurship\nAdministrative Secretarial",
+          "pre_law": null,
+          "miscellaneous": "Aerospace Technology and Drones (UAS)\nRespiratory Therapy\nComputed Tomography and Magnetic Resonance Imaging",
+          "grad_programs": "Master of Science in Preclinical Sciences\nPsychology with a Specialty in Psychological Counseling\nMBA with a Specialty in Taxation\nEducation with a Specialty in Counseling\nEducation with a Specialty in Educational Administration and Supervision\nEducation with a Specialty in Special Education\nMBA with a Specialty in Human Resources\nPublic Health\nMBA with a Specialty in Accounting\nCriminal Justice and Criminology\nEnvironmental Sciences with a Specialization in Environmental Analysis\nMBA with a Specialty in Information Security Management\nMBA with a Specialty in Global Business\nScience with a Specialty in Telecommunications Systems and Network Administration\nEnvironmental Sciences with a Specialization in Environmental Management\nEducation with a Specialty in Curriculum and Instruction\nPublic Affairs with a Specialty in Conflict Mediation\nAccounting Â– MAcc (Combined Degree)\nMaster of Science in Innovation and Entrepreneurship\nMaster of Science in Nutrition\nMaster of Science in Nutrition and Dietetics Â– Coordinated Program\nMBA with a Specialty in Finance\nMBA with a Specialty in Management\nSocial Work with a Specialty in Family Social Work\nMBA with a Specialty in Management and Strategic Leadership\nEducation with a Specialty in Teaching English as a Second Language\nMaster of Arts in Education in School and Child Psychology\nMBA with a Specialty in Marketing\nMaster of Science in Accounting (MSA)\nSocial Work with a Specialty in Forensic Social Work\nHealth Services Administration with a Specialty in Health Services Management\nMaster of Science in Engineering Management\nMaster of Science in Brand Management and Digital Marketing\nEducation with a Specialty in Teaching Fine Arts\nClinical Social Work\nMaster of Science in Nursing (MSN) with a Specialty in Case Management and Secondary Role\nPublic Affairs with a Specialty in Human Services\nMBA with a Specialty in Quality Management\nMaster of Science in Speech-Language Pathology\nPublic Affairs with a Specialty in Public Policy\nMaster of Arts in Cultural Studies with a Specialty in General Cultural Studies\nMBA with a Specialty in Project Management\nMaster of Science in Information Technology with a Specialty in Cybersecurity\nEducation in Curriculum and Instruction (Various Emphases)\nMBA with a Specialty in Supply Chain and Materials Management\nSpecial Education with a Specialty in Autism or KÂ–12 Special Education\nMaster of Arts in Education with a Specialty in Adapted Physical Education\nPhysical Education with a Specialty in Sports Training / Health Promotion / Athletic Therapy\nProfessional Master of Science in Industrial Biotechnology\nEducation with a Specialty in Montessori Curriculum Development and Instruction\nMaster of Science in Mechanical Engineering with a Specialty in Alternative Energy\nStrategic Tourism\nMaster of Science in Environmental Management with a Specialty in Conservation and Natural Resource Management\nInstructional Design and Technology Integration with e Learning\nMaster of Science in Nursing (MSN) with a Specialty in Family Nurse Practitioner\nStrategic Tourism with a Specialty in Gastronomic Tourism\nMaster of Science in Environmental Management with a Specialty in Environmental Risk Assessment and Management                                                                   Doctorate: \nPh.D. in Toxicology and Drug Design\nInterdisciplinary Studies of Puerto Rico and the Caribbean\nNaturopathic Medicine\nEducational Leadership\nNursing Science Â– Vulnerable Populations"
+        },
+        "flags": {
+          "has_nursing": true,
+          "has_engineering": true,
+          "has_humanities": false,
+          "has_business": true,
+          "has_grad": true,
+          "is_public": false,
+          "is_active": true,
+          "is_branch": true
+        },
+        "admission_rate": null,
+        "completion_rate": null,
+        "tuition_in_state": null,
+        "tuition_out_state": null,
+        "avg_net_price": null,
+        "median_debt": null,
+        "median_earnings_10yr": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1481,
+          18.3956
+        ]
+      },
+      "properties": {
+        "id": 241225,
+        "name": "Universidad Central de BayamÃ³n",
+        "name_scorecard": "Universidad Central de Bayamon",
+        "city": "BayamÃ³n",
+        "zip": "00960",
+        "website": "https://www.ucb.edu.pr",
+        "is_main_campus": true,
+        "parent_id": null,
+        "ownership": "Private Non-Profit",
+        "level": "4-year",
+        "accreditor": "MSCHE",
+        "enrollment": 1700,
+        "active": true,
+        "data_source": "seed",
+        "majors": {
+          "nursing": "Nursing ",
+          "engineering": null,
+          "humanities": null,
+          "social_sciences": "Elementary Education with a concentration in Physical Education\nElementary Education with a concentration in Primary Level (KindergartenÂ–3rd Grade)\nElementary Education with a concentration in Upper Elementary (4thÂ–6th Grade)\nSecondary Education with a concentration in Physical Education\nSecondary Education with a concentration in English\nElementary Education with a concentration in Preschool Education\nElementary Education with a concentration in English\nElementary Education with a concentration in Special Education",
+          "bench_sciences": "Biology                                                  General Science              Neuroscience ",
+          "business": "Innovation and Business Management\nBusiness Administration- Information Networks\nHuman Resources\nMarketing\nBusiness Administration General Concentration\nAccounting",
+          "pre_law": null,
+          "miscellaneous": null,
+          "grad_programs": null
+        },
+        "flags": {
+          "has_nursing": true,
+          "has_engineering": false,
+          "has_humanities": false,
+          "has_business": true,
+          "has_grad": false,
+          "is_public": false,
+          "is_active": true,
+          "is_branch": false
+        },
+        "admission_rate": 0.6594,
+        "completion_rate": 0.3438,
+        "tuition_in_state": 5986,
+        "tuition_out_state": 5986,
+        "avg_net_price": 4827,
+        "median_debt": 9393,
+        "median_earnings_10yr": 25021
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.154,
+          18.4064
+        ]
+      },
+      "properties": {
+        "id": 241234,
+        "name": "Universidad Central del Caribe",
+        "name_scorecard": "Universidad Central del Caribe",
+        "city": "BayamÃ³n",
+        "zip": "00960",
+        "website": "https://www.uccaribe.edu",
+        "is_main_campus": true,
+        "parent_id": null,
+        "ownership": "Private Non-Profit",
+        "level": "4-year",
+        "accreditor": "LCME / MSCHE",
+        "enrollment": 560,
+        "active": true,
+        "data_source": "seed",
+        "majors": {
+          "nursing": null,
+          "engineering": null,
+          "humanities": null,
+          "social_sciences": null,
+          "bench_sciences": null,
+          "business": null,
+          "pre_law": null,
+          "miscellaneous": "Medical Images",
+          "grad_programs": "Masters: \nHealth Science Â– Substance Abuse\nDoctorates:\nDoctor of Chiropractic \nDoctor of Medicine \nCellular and Molecular Biology\nNeuroscience "
+        },
+        "flags": {
+          "has_nursing": false,
+          "has_engineering": false,
+          "has_humanities": false,
+          "has_business": false,
+          "has_grad": true,
+          "is_public": false,
+          "is_active": true,
+          "is_branch": false
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.0512,
+          18.4035
+        ]
+      },
+      "properties": {
+        "id": 243221,
+        "name": "Universidad de Puerto Rico Rio Piedras",
+        "name_scorecard": "University of Puerto Rico-Rio Piedras",
+        "city": "San Juan",
+        "zip": "00931",
+        "website": "https://www.uprrp.edu",
+        "is_main_campus": true,
+        "parent_id": null,
+        "ownership": "Public",
+        "level": "4-year",
+        "accreditor": "MSCHE",
+        "enrollment": 14800,
+        "active": true,
+        "data_source": "seed",
+        "majors": {
+          "nursing": null,
+          "engineering": "Electrical Engineering\nComputer Engineering\nMechanical Engineering",
+          "humanities": " Comparative Literature \n Fine Arts **\n English-Literature \n Philosophy \nHispanic Studies \n Music \n Drama \nInterdisciplinary Studies \nArt History \n English Â– Linguistics and Communication \nHistory of the Americas \n History of Europe \nModern Languages",
+          "social_sciences": "General Studies                                                                   Elementary Education (K-Grade 3) \nElementary Education (Grades 4-6) \nSpecial Education 247/ Teaching English as a Second Language\nSecondary Education (Science, Biology, Chemistry, Mathematics, Physics, Social Studies, Physical Education, Teaching English as a Second Language, History, Spanish, Arts, Music, Theater, Recreation 2, Preschool Education) Labor Relations\nEconomics\nPolitical Sciences\n Psychology\nSociology\nAnthropology\nGeography\n Social Work\n Social Sciences                                                              Audiovisual Communication \nPublic Relations and Advertising\nInformation and Journalism  ",
+          "bench_sciences": "Nutrition and Dietetics\n Interdisciplinary Studies\n Biology\n Chemistry\n Mathematics\nPhysics\n Environmental Sciences\n Computer Science ",
+          "business": "General Business Administration\n Accounting \n Economics\nFinance\nStatistics \nComputer Information Systems\nHuman Resources Management\n Marketing Management \nOperations and Supply Chain Management \nOffice Systems Administration      ",
+          "pre_law": null,
+          "miscellaneous": "Archatecture - Environmental Design",
+          "grad_programs": "Masters:\nMaster of Business Administration \nOnline Master of Business Administration\nMaster of Business Administration/ Juris Doctor \nBiology\nChemistry\nComputer Science\nMathematics\nPhysics\nEnvironmental Sciences\nHuman Resource Management and Labour relations\nPublic Management\nGovernment and Public Policy\nEconomics\nClinical Psychology\nIndustrial Organizational Psychology\nInvestigative Psychology in Neurocognition and Development\nHuman\nSocial-Community Psychology\nSociology\nRehabilitation Counseling\nSocial Work\nManagement and Development of Cooperatives and Solidarity Organizations\nArchitecture \nJournalism \nCommunications Â– Theory & Research \nPlanning \nLegal Masters                                                               Doctors: \nInternational Trade\nChemistry\nPhysics-Chemistry\nBiology\nMathematics\nEnvironmental Sciences\nPsychology\nPsychology Area of Emphasis in Clinical Psychology\nPsychology Area of Emphasis in Neurocognition and\nHuman Development\nSocial Work\nLeadership in Educational Organizations \nCurriculum and Teaching \nGuidance and Counseling\nHispanic Studies\nHistory\nEnglish\nJuris Doctor\n"
+        },
+        "flags": {
+          "has_nursing": false,
+          "has_engineering": true,
+          "has_humanities": true,
+          "has_business": true,
+          "has_grad": true,
+          "is_public": true,
+          "is_active": true,
+          "is_branch": false
+        },
+        "admission_rate": 0.5459,
+        "completion_rate": 0.5026,
+        "tuition_in_state": 5354,
+        "tuition_out_state": 5354,
+        "avg_net_price": 9175,
+        "median_debt": 5500,
+        "median_earnings_10yr": 35723
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1603,
+          18.3864
+        ]
+      },
+      "properties": {
+        "id": 243133,
+        "name": "Universidad de Puerto Rico BayamÃ³n",
+        "name_scorecard": "University of Puerto Rico-Bayamon",
+        "city": "BayamÃ³n",
+        "zip": "00959",
+        "website": "https://www.uprb.edu",
+        "is_main_campus": false,
+        "parent_id": 243221,
+        "ownership": "Public",
+        "level": "4-year",
+        "accreditor": "MSCHE",
+        "enrollment": 3800,
+        "active": true,
+        "data_source": "seed",
+        "majors": {
+          "nursing": null,
+          "engineering": " Electronics Engineering",
+          "humanities": null,
+          "social_sciences": "Adapted and Regular Physical Education                 Preschool and Elementary Education",
+          "bench_sciences": "Human Biology\nBiology\nNatural Science               General Biology         Computer Science \nComputer Science Â– Information Systems\nInformation Engineering Technology",
+          "business": "Accounting\nFinance\nManagement\nMarketing",
+          "pre_law": null,
+          "miscellaneous": "Office Systems                                Materials Management                    logistics and Supply Chain",
+          "grad_programs": null
+        },
+        "flags": {
+          "has_nursing": false,
+          "has_engineering": true,
+          "has_humanities": false,
+          "has_business": true,
+          "has_grad": true,
+          "is_public": true,
+          "is_active": true,
+          "is_branch": true
+        },
+        "admission_rate": null,
+        "completion_rate": null,
+        "tuition_in_state": null,
+        "tuition_out_state": null,
+        "avg_net_price": null,
+        "median_debt": null,
+        "median_earnings_10yr": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.9693,
+          18.401
+        ]
+      },
+      "properties": {
+        "id": 243142,
+        "name": "Universidad de Puerto Rico Carolina",
+        "name_scorecard": "University of Puerto Rico-Carolina",
+        "city": "Carolina",
+        "zip": "00984",
+        "website": "https://www.uprc.edu",
+        "is_main_campus": false,
+        "parent_id": 243221,
+        "ownership": "Public",
+        "level": "4-year",
+        "accreditor": "MSCHE",
+        "enrollment": 3200,
+        "active": true,
+        "data_source": "seed",
+        "majors": {
+          "nursing": null,
+          "engineering": "Concentration in Mechatronics Engineering",
+          "humanities": "Business Enlgish",
+          "social_sciences": "Concentration in Law and Society\nConcentration in Forensic Psychology",
+          "bench_sciences": "Concentration in Forensic Science",
+          "business": "Concentration in Finance\nManagement concentration",
+          "pre_law": null,
+          "miscellaneous": "Food and Beverage Management Approach\nFocus on Hotel Management Concentration in Graphic Arts (Focus in Graphic Design)\nConcentration in Interior Design (Focus on Sustainable Design)\nConcentration in Advertising Production Design              Concentration in Tourist Culture",
+          "grad_programs": null
+        },
+        "flags": {
+          "has_nursing": false,
+          "has_engineering": true,
+          "has_humanities": true,
+          "has_business": true,
+          "has_grad": true,
+          "is_public": true,
+          "is_active": true,
+          "is_branch": true
+        },
+        "admission_rate": 0.5454,
+        "completion_rate": 0.3727,
+        "tuition_in_state": 7986,
+        "tuition_out_state": 7986,
+        "avg_net_price": 12945,
+        "median_debt": 5500,
+        "median_earnings_10yr": 30626
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.1354,
+          18.4973
+        ]
+      },
+      "properties": {
+        "id": 243106,
+        "name": "Universidad de Puerto Rico en Aguadilla",
+        "name_scorecard": "University of Puerto Rico-Aguadilla",
+        "city": "Aguadilla",
+        "zip": "00604",
+        "website": "https://www.uprag.edu",
+        "is_main_campus": false,
+        "parent_id": 243221,
+        "ownership": "Public",
+        "level": "4-year",
+        "accreditor": "MSCHE",
+        "enrollment": 2400,
+        "active": true,
+        "data_source": "seed",
+        "majors": {
+          "nursing": null,
+          "engineering": "Electronic Engineering Technology",
+          "humanities": null,
+          "social_sciences": "Elementary Education\nEnglish as a Second Language with Educational Technology K-12",
+          "bench_sciences": "Biology\nEnvironmental Technology\nChemistry\nPharmacy Dual Program",
+          "business": "\n    Accounting\n    Finance\n    General Business \n    Marketing\n    Human Resources (in person)\n    Human Resources (online)\n    Computerized Information Systems\n",
+          "pre_law": null,
+          "miscellaneous": "Office Administration and Information Technology                                                     Hotel and Restaurant Management (Articulated Transport)",
+          "grad_programs": null
+        },
+        "flags": {
+          "has_nursing": false,
+          "has_engineering": true,
+          "has_humanities": false,
+          "has_business": true,
+          "has_grad": true,
+          "is_public": true,
+          "is_active": true,
+          "is_branch": true
+        },
+        "admission_rate": 0.814,
+        "completion_rate": 0.4633,
+        "tuition_in_state": 5954,
+        "tuition_out_state": 5954,
+        "avg_net_price": 7765,
+        "median_debt": 5500,
+        "median_earnings_10yr": 27997
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.7173,
+          18.4741
+        ]
+      },
+      "properties": {
+        "id": 243115,
+        "name": "Universidad de Puerto Rico en Arecibo",
+        "name_scorecard": "University of Puerto Rico-Arecibo",
+        "city": "Arecibo",
+        "zip": "00614",
+        "website": "https://www.upra.edu",
+        "is_main_campus": false,
+        "parent_id": 243221,
+        "ownership": "Public",
+        "level": "4-year",
+        "accreditor": "MSCHE",
+        "enrollment": 3500,
+        "active": true,
+        "data_source": "seed",
+        "majors": {
+          "nursing": "Nursing sciences Patient Care in Critical Condition            Oncological Nursing",
+          "engineering": null,
+          "humanities": null,
+          "social_sciences": "Ibero-American Studies\nOrganizational Industrial Psychology\nDigital Cinema\nStrategic Communication\nDigital Photography\nProduction and Direction\nProduction of News\nElementary Education\nPhysical Education for Elementary Level\nLower concentration in Neuroeducation",
+          "bench_sciences": "Technology in Industrial Chemical Processes\nIndustrial Microbiology\nMedical Microbiology\nEnvironmental Microbiology                 Computer Science\nFull-Stack Web Development",
+          "business": "Accounting\nManagement\nFinances\nMarketing",
+          "pre_law": null,
+          "miscellaneous": "Virtual Administrative Professional\nLegal Administrative Professional",
+          "grad_programs": "Psychology with a specialization in Leadership and Social Management"
+        },
+        "flags": {
+          "has_nursing": true,
+          "has_engineering": false,
+          "has_humanities": false,
+          "has_business": true,
+          "has_grad": true,
+          "is_public": true,
+          "is_active": true,
+          "is_branch": true
+        },
+        "admission_rate": 0.5918,
+        "completion_rate": 0.52,
+        "tuition_in_state": 5354,
+        "tuition_out_state": 5354,
+        "avg_net_price": 10680,
+        "median_debt": 4500,
+        "median_earnings_10yr": 30512
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.6148,
+          18.0109
+        ]
+      },
+      "properties": {
+        "id": 243124,
+        "name": "Universidad de Puerto Rico en Ponce",
+        "name_scorecard": "University of Puerto Rico-Ponce",
+        "city": "Ponce",
+        "zip": "00732",
+        "website": "https://www.uprp.edu",
+        "is_main_campus": false,
+        "parent_id": 243221,
+        "ownership": "Public",
+        "level": "4-year",
+        "accreditor": "MSCHE",
+        "enrollment": 2900,
+        "active": true,
+        "data_source": "seed",
+        "majors": {
+          "nursing": null,
+          "engineering": "Civil Engineering Â– Construction\nCivil Engineering Â– Architectural Drafting\nIndustrial Engineering",
+          "humanities": null,
+          "social_sciences": "Elementary Education\nForensic Psychology                                                            Psychology and Mental Health",
+          "bench_sciences": "Biology \nBiodiversity\nBiotechnology\nBiochemistry\nTropical Medicine\nGlobal Health\nBiomedical Sciences Computerized Information Systems",
+          "business": "Accounting\nFinance\nManagement\nMarketing                                       Entrepreneurship and Management",
+          "pre_law": null,
+          "miscellaneous": "\n Office Systems and Technology Athletic Training                                          Physical Therapy",
+          "grad_programs": null
+        },
+        "flags": {
+          "has_nursing": false,
+          "has_engineering": true,
+          "has_humanities": false,
+          "has_business": true,
+          "has_grad": true,
+          "is_public": true,
+          "is_active": true,
+          "is_branch": true
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.7002,
+          18.2663
+        ]
+      },
+      "properties": {
+        "id": 243188,
+        "name": "Universidad de Puerto Rico en Utuado",
+        "name_scorecard": "University of Puerto Rico-Utuado",
+        "city": "Utuado",
+        "zip": "00641",
+        "website": "https://www.uprutuado.edu",
+        "is_main_campus": false,
+        "parent_id": 243221,
+        "ownership": "Public",
+        "level": "2-year",
+        "accreditor": "MSCHE",
+        "enrollment": 800,
+        "active": true,
+        "data_source": "seed",
+        "majors": {
+          "nursing": null,
+          "engineering": null,
+          "humanities": null,
+          "social_sciences": null,
+          "bench_sciences": "Natural Sciences",
+          "business": "Accounting",
+          "pre_law": null,
+          "miscellaneous": "Sustainable Agriculture",
+          "grad_programs": null
+        },
+        "flags": {
+          "has_nursing": false,
+          "has_engineering": false,
+          "has_humanities": false,
+          "has_business": true,
+          "has_grad": true,
+          "is_public": true,
+          "is_active": true,
+          "is_branch": true
+        },
+        "admission_rate": 0.6411,
+        "completion_rate": 0.2326,
+        "tuition_in_state": 5354,
+        "tuition_out_state": 5354,
+        "avg_net_price": 13648,
+        "median_debt": 3500,
+        "median_earnings_10yr": 23906
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.8159,
+          18.1568
+        ]
+      },
+      "properties": {
+        "id": 243179,
+        "name": "Universidad de Puerto Rico Humacao",
+        "name_scorecard": "University of Puerto Rico-Humacao",
+        "city": "Humacao",
+        "zip": "00791",
+        "website": "https://www.upr.edu/humacao",
+        "is_main_campus": false,
+        "parent_id": 243221,
+        "ownership": "Public",
+        "level": "4-year",
+        "accreditor": "MSCHE",
+        "enrollment": 3100,
+        "active": true,
+        "data_source": "seed",
+        "majors": {
+          "nursing": "Nursing",
+          "engineering": null,
+          "humanities": null,
+          "social_sciences": "Social Sciences with Social Action Research Communication -Audio Video\nCommunications Â– Graphic Design                                     Elementary Education                                                                        Puerto Rico and Caribbean Studies                                         Social Work",
+          "bench_sciences": "Marine Coastal Biology\nGeneral Biology \nMicrobiology \nWildlife management  Physics Applied to Electronics                Data Science                          Industrial Chemistry",
+          "business": "International Trade\nAccounting\nManagement\nHuman Resources",
+          "pre_law": null,
+          "miscellaneous": "Office Systems Administration\nTechnology Management ",
+          "grad_programs": null
+        },
+        "flags": {
+          "has_nursing": true,
+          "has_engineering": false,
+          "has_humanities": false,
+          "has_business": true,
+          "has_grad": true,
+          "is_public": true,
+          "is_active": true,
+          "is_branch": true
+        },
+        "admission_rate": 0.548,
+        "completion_rate": 0.4712,
+        "tuition_in_state": 5364,
+        "tuition_out_state": 5364,
+        "avg_net_price": 12675,
+        "median_debt": 5500,
+        "median_earnings_10yr": 29521
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.0452,
+          18.4
+        ]
+      },
+      "properties": {
+        "id": 243160,
+        "name": "Universidad de Puerto Rico, Recinto de Ciencias MÃ©dicas",
+        "name_scorecard": "University of Puerto Rico-Medical Sciences",
+        "city": "San Juan",
+        "zip": "00936",
+        "website": "https://www.rcm.upr.edu",
+        "is_main_campus": false,
+        "parent_id": 243221,
+        "ownership": "Public",
+        "level": "4-year",
+        "accreditor": "LCME / MSCHE",
+        "enrollment": 2400,
+        "active": true,
+        "data_source": "seed",
+        "majors": {
+          "nursing": "Nursing",
+          "engineering": null,
+          "humanities": null,
+          "social_sciences": null,
+          "bench_sciences": "\n Medical Technology Technology in Nuclear Medicine Veterinary Technology\nRadiological Sciences",
+          "business": null,
+          "pre_law": null,
+          "miscellaneous": null,
+          "grad_programs": "Masters & PhD\nAnatomy & Neurobiology\nBiochemistry\nMicrobiology & Medical Zoology\nPharmacology & Toxicology\nPhysiology                                                                             Nursing                                                                                      Public Health                                                                  Epidemiology                                                                        Industrial Hygene                                                                                  M.D"
+        },
+        "flags": {
+          "has_nursing": true,
+          "has_engineering": false,
+          "has_humanities": false,
+          "has_business": false,
+          "has_grad": true,
+          "is_public": true,
+          "is_active": true,
+          "is_branch": true
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1666,
+          18.111
+        ]
+      },
+      "properties": {
+        "id": 243151,
+        "name": "Universidad de Puerto Rico, Recinto de Cayey",
+        "name_scorecard": "University of Puerto Rico-Cayey",
+        "city": "Cayey",
+        "zip": "00736",
+        "website": "https://www.cayey.upr.edu",
+        "is_main_campus": false,
+        "parent_id": 243221,
+        "ownership": "Public",
+        "level": "4-year",
+        "accreditor": "MSCHE",
+        "enrollment": 2800,
+        "active": true,
+        "data_source": "seed",
+        "majors": {
+          "nursing": null,
+          "engineering": null,
+          "humanities": "Theatre\nPhilosophy\nVisual Arts\nHistory of America\nHistory of Europe                 Hispanic Literature                 Literary Creation",
+          "social_sciences": "English Elementary Education\nSpanish Elementary Education\nElementary Education Concentration in Mathematics\nElementary Education Concerning in Natural Sciences\nElementary Education Special Education\nSecondary Education English Concentration\nSecondary Education Concentration in Spanish\nSecondary Education Concentration in Natural Sciences\nSecondary Education Concentration in Physical Education\nSecondary Education Concentration in History\nSecondary Education English Concentration\nSecondary Education Concentration in Mathematics",
+          "bench_sciences": "Natural Sciences                               Biology                                                     NuroScience",
+          "business": "Management\nMarketing\nEntrepreneurship\nOperations Management\nTechnological Administration\nGeneral Accounting\nAccounting-Emphasis in Audit\nAccounting-Emphasis in Contributions\nAccounting-Emphasis in Financial Accounting",
+          "pre_law": null,
+          "miscellaneous": null,
+          "grad_programs": null
+        },
+        "flags": {
+          "has_nursing": false,
+          "has_engineering": false,
+          "has_humanities": true,
+          "has_business": true,
+          "has_grad": true,
+          "is_public": true,
+          "is_active": true,
+          "is_branch": true
+        },
+        "admission_rate": 0.53,
+        "completion_rate": 0.4983,
+        "tuition_in_state": 5354,
+        "tuition_out_state": 5354,
+        "avg_net_price": 10176,
+        "median_debt": 5000,
+        "median_earnings_10yr": 30958
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.1406,
+          18.2106
+        ]
+      },
+      "properties": {
+        "id": 243197,
+        "name": "Universidad de Puerto Rico, Recinto Universitario de MayagÃ¼ez",
+        "name_scorecard": "University of Puerto Rico-Mayaguez",
+        "city": "MayagÃ¼ez",
+        "zip": "00681",
+        "website": "https://www.uprm.edu",
+        "is_main_campus": false,
+        "parent_id": 243221,
+        "ownership": "Public",
+        "level": "4-year",
+        "accreditor": "ABET / MSCHE",
+        "enrollment": 11000,
+        "active": true,
+        "data_source": "seed",
+        "majors": {
+          "nursing": "Nursing",
+          "engineering": "Chemical Engineering\nCivil Engineering\nComputer Engineering\nComputer Science and Engineering\nElectrical Engineering\nIndustrial Engineering\nMechanical Engineering\nSoftware Engineering\nSurveying and Topography",
+          "humanities": "Art Theory\nEnglish\nHistory\nFrench Language and Literature\nHispanic Studies\nPhilosophy\nVisual Arts\nComparative Literature",
+          "social_sciences": "\nPhysical Education Â– Pedagogy in Physical Education\nPhysical Education Â– Sports Training\nPolitical Science\nPsychology\nSocial Sciences\nSociology",
+          "bench_sciences": "Biology\nIndustrial Microbiology\nPre-Medical Studies\nIndustrial Biotechnology\nChemistry\nGeology\nMathematics Â– Pure Mathematics\nMathematics Â– Computer Science\nMathematics Education\nPhysics\nPhysical Sciences",
+          "business": "Accounting\nFinance\nHuman Resources Management\nMarketing\nOperations Management\nComputerized Information Systems\nOffice Administration                     Economics",
+          "pre_law": null,
+          "miscellaneous": "Pre-Veterinary (Non-degree program)Agricultural Sciences (General)\nAgronomy\nAgricultural Economics\nHorticulture\nAnimal Science\nCrop Protection\nAgribusiness\nAgricultural Education\nAgricultural Extension\nSoils\nAgricultural and Environmental Systems  Food Science",
+          "grad_programs": "Masters: \nBusiness Administration (General Program)\nFinance\nIndustrial Management\nHuman Resources\nCultural and Humanistic Studies\nHispanic Studies\nEnglish Language Education\nEnglish Literature\nKinesiology\nBiology\nChemistry\nGeology\nMarine Sciences\nPhysics\nApplied Mathematics\nStatistical Mathematics\nPure Mathematics\nTeaching Mathematics at the Pre-University Level\nScientific Computing\nSchool Psychology with subspecializations in clinical and neuropsychology\nAgronomy\nFood Science and Technology\nAgricultural Economics\nAgricultural Economics (Online Program)\nAgricultural Education\nAgricultural Extension\nHorticulture\nAnimal Science\nCrop Protection\nSoils\nFood Science and Technology\nBioengineering\nChemical Engineering\nCivil Engineering\nComputer Engineering\nElectrical Engineering\nIndustrial Engineering\nMaterials Science and Engineering\nMechanical Engineering\nSoftware Engineering\nBioengineering\nChemical Engineering\nCivil Engineering\nComputer Engineering\nElectrical Engineering\nIndustrial Engineering\nMaterials Science and Engineering\nMechanical Engineering\nSoftware Engineering                                            Doctors:                                                                                  Marine Sciences\nApplied Chemistry\nSchool Psychology with subspecialties in clinical and neuropsychology\nTropical Agriculture\nBioengineering\nChemical Engineering\nCivil Engineering\nElectrical Engineering\nMechanical Engineering\nComputer Science and Engineering\nSoftware Engineering"
+        },
+        "flags": {
+          "has_nursing": true,
+          "has_engineering": true,
+          "has_humanities": true,
+          "has_business": true,
+          "has_grad": true,
+          "is_public": true,
+          "is_active": true,
+          "is_branch": true
+        },
+        "admission_rate": 0.5652,
+        "completion_rate": 0.491,
+        "tuition_in_state": 5274,
+        "tuition_out_state": 5274,
+        "avg_net_price": 17936,
+        "median_debt": 8250,
+        "median_earnings_10yr": 48992
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.0723,
+          18.4299
+        ]
+      },
+      "properties": {
+        "id": 243443,
+        "name": "Universidad del Sagrado Corazon",
+        "name_scorecard": "Universidad del Sagrado Corazon",
+        "city": "San Juan",
+        "zip": "00914",
+        "website": "https://www.sagrado.edu",
+        "is_main_campus": true,
+        "parent_id": null,
+        "ownership": "Private Non-Profit",
+        "level": "4-year",
+        "accreditor": "MSCHE",
+        "enrollment": 4600,
+        "active": true,
+        "data_source": "seed",
+        "majors": {
+          "nursing": "Nursing",
+          "engineering": null,
+          "humanities": "Biology: secondary level\nChemistry: secondary level\nPhysical education: elementary level / secondary level\nVisual Arts: level K-12\nDance: level K-12\nTheatre: level K-12                   Theatre                                                     Art and Entertainment ",
+          "social_sciences": "Behavioral Science                                                             Communication                                                                                   Global Communication                                                             Journalism                                                                                                   Film - Audio Visual Visual Arts Creating Writing Dance                                                                                                          ",
+          "bench_sciences": "Chemistry                                                        Biology                                            Exercise Science                                                                           Biomedical Science      ",
+          "business": "Business Analysis                               Accounting                                                  Business Management                            Marketing ",
+          "pre_law": null,
+          "miscellaneous": "Experience Design - Toursim                  Graphic Design                                                     Industrial Design                                          Fashion Design                                        Photography",
+          "grad_programs": "Masters:                                                                                Business Management                                                       Education in Learning, Media and Technology Physical Performance                                                          Applied Neuroscience                                                           Digital marketing                                                                         Creating Writing                                                                  Journalism                                                                                 Public Relations                                                                       Creative Design                                                            Communication- Storytelling                                              Doctorate:                                                                                 Creative Writing and Literatrure "
+        },
+        "flags": {
+          "has_nursing": true,
+          "has_engineering": false,
+          "has_humanities": true,
+          "has_business": true,
+          "has_grad": true,
+          "is_public": false,
+          "is_active": true,
+          "is_branch": false
+        },
+        "admission_rate": 0.5802,
+        "completion_rate": 0.5207,
+        "tuition_in_state": 6410,
+        "tuition_out_state": 6410,
+        "avg_net_price": 12924,
+        "median_debt": 16250,
+        "median_earnings_10yr": 31754
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.0414,
+          18.0857
+        ]
+      },
+      "properties": {
+        "id": 242617,
+        "name": "Inter American - San GermÃ¡n (Main)",
+        "name_scorecard": "Inter American University of Puerto Rico-Metro",
+        "city": "San GermÃ¡n",
+        "zip": "00919",
+        "website": "https://www.inter.edu",
+        "is_main_campus": true,
+        "parent_id": 242636,
+        "ownership": "Private Non-Profit",
+        "level": "4-year",
+        "accreditor": "MSCHE",
+        "enrollment": 4200,
+        "active": true,
+        "data_source": "seed",
+        "majors": {
+          "nursing": "Nursing ",
+          "engineering": "Pre-engineering \nArchitectural \nElectric \nIndustrial \nMechanics \nComputers ",
+          "humanities": "Music Education: General-vowel \nMusic Education: Instrumental \nApplied Music                                    Teaching of Art \nCeramics \nDrawing \nSculpture \nPhotography\nEngraved \nPainting ",
+          "social_sciences": "Secondary Education \nLevel K-12 Education\nSpecial Education \nStudies in Religion\nEnglish - Arts\nMathematics - Arts\nPsychology \nSocial work \nTeaching English as a Second Language Secondary Level\nSecondary level in Spanish \nSchool Health \nEarly Childhood: Elementary Level (Fourth to Sixth)\nEarly Childhood: Primary Elementary Level (Kinder to Third)\nEarly Childhood: Preschool Level\nGraphic Design\nDigital Graphic Design and Multimedia\nSecurity Management\nNetworks and Telecommunications                                    Criminal Investigation \nForensic Investigation \nCybercrime Investigation                                                            Elementary Education in Special Education\nAdapted Physical Education\nPhysical Education at the K-12 Level",
+          "bench_sciences": "Biology\nBiotechnology\nComputer Science                 Agronomy                                 Molecular Medicine and Bioprocesses\nMicrobiology \nChemistry \nApplied Chemistry: Biochemistry \nApplied Chemistry: Nanotechnology \nApplied Chemistry: Forensic Chemistry \nIndustrial Chemistry  ",
+          "business": " Business Administration\nTourist Administration\nOrganizational Behavior \nBusiness and Management Development \nFinances \nOrganizational Management and Innovation \nManufacturing and Service Operations Management\nHuman Resources Management \nMarketing \nInternational Business \nInformation Technology \nAccounting \nMarketing for Digital Media ",
+          "pre_law": null,
+          "miscellaneous": " Office Systems Administration    Hotel and Restaurant Management Mammography and Angiography ",
+          "grad_programs": "Masters:\nBank Administration\nBusiness administration\nAccounting\nSocial Entrepreneurship \nFinances\nIndustrial Management \nMarketing\nHuman Resources\nManagement Information Systems\nTourism \nSpecial Ed.\nGerontology\nPublic Policy \nMusic Ed.\nReligious Ed.\nHistory \nCriminal Justice\nApplied Mathematics \nEducational Neuroscience \nLabor Relations\nCeramics\nDrawing \nSculpture\nphotography \nPainting\nAnesthesia \nComputer Science\nPsychology \nPublic Health \nPathology of Speech \nEnvironmental Biology \nEnvironmental Chemistry \nWater Resources Operations \nMolecular Biotechnology \nEnvironmental Ecology\nMechanical Engineering \nEducation \nRisk Management \nSocial Work\nLaw                                                                                        Doctorate:\nBusiness Administration\nMusic Arts\nNursing\nLegal Sciences\nEducation \nProfessional Studes\nTheology \nBiotechnology\nHuman Resources\nOptometry \nPsychology"
+        },
+        "flags": {
+          "has_nursing": true,
+          "has_engineering": true,
+          "has_humanities": true,
+          "has_business": true,
+          "has_grad": true,
+          "is_public": false,
+          "is_active": true,
+          "is_branch": false
+        },
+        "admission_rate": null,
+        "completion_rate": null,
+        "tuition_in_state": null,
+        "tuition_out_state": null,
+        "avg_net_price": null,
+        "median_debt": null,
+        "median_earnings_10yr": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.0617,
+          18.4096
+        ]
+      },
+      "properties": {
+        "id": 242858,
+        "name": "Inter American - Metro (San Juan)",
+        "name_scorecard": "Inter American University of Puerto Rico-Metro",
+        "city": "San Juan",
+        "zip": "00919",
+        "website": "https://www.inter.edu",
+        "is_main_campus": false,
+        "parent_id": 242636,
+        "ownership": "Private Non-Profit",
+        "level": "4-year",
+        "accreditor": "MSCHE",
+        "enrollment": 5800,
+        "active": true,
+        "data_source": "seed",
+        "majors": {
+          "nursing": "Nursing ",
+          "engineering": "Pre-engineering \nArchitectural \nElectric \nIndustrial \nMechanics \nComputers ",
+          "humanities": "Music Education: General-vowel \nMusic Education: Instrumental \nApplied Music                                    Teaching of Art \nCeramics \nDrawing \nSculpture \nPhotography\nEngraved \nPainting ",
+          "social_sciences": "Secondary Education \nLevel K-12 Education\nSpecial Education \nStudies in Religion\nEnglish - Arts\nMathematics - Arts\nPsychology \nSocial work \nTeaching English as a Second Language Secondary Level\nSecondary level in Spanish \nSchool Health \nEarly Childhood: Elementary Level (Fourth to Sixth)\nEarly Childhood: Primary Elementary Level (Kinder to Third)\nEarly Childhood: Preschool Level\nGraphic Design\nDigital Graphic Design and Multimedia\nSecurity Management\nNetworks and Telecommunications                                    Criminal Investigation \nForensic Investigation \nCybercrime Investigation                                                            Elementary Education in Special Education\nAdapted Physical Education\nPhysical Education at the K-12 Level",
+          "bench_sciences": "Biology\nBiotechnology\nComputer Science                 Agronomy                                 Molecular Medicine and Bioprocesses\nMicrobiology \nChemistry \nApplied Chemistry: Biochemistry \nApplied Chemistry: Nanotechnology \nApplied Chemistry: Forensic Chemistry \nIndustrial Chemistry  ",
+          "business": " Business Administration\nTourist Administration\nOrganizational Behavior \nBusiness and Management Development \nFinances \nOrganizational Management and Innovation \nManufacturing and Service Operations Management\nHuman Resources Management \nMarketing \nInternational Business \nInformation Technology \nAccounting \nMarketing for Digital Media ",
+          "pre_law": null,
+          "miscellaneous": " Office Systems Administration    Hotel and Restaurant Management Mammography and Angiography ",
+          "grad_programs": "Masters:\nBank Administration\nBusiness administration\nAccounting\nSocial Entrepreneurship \nFinances\nIndustrial Management \nMarketing\nHuman Resources\nManagement Information Systems\nTourism \nSpecial Ed.\nGerontology\nPublic Policy \nMusic Ed.\nReligious Ed.\nHistory \nCriminal Justice\nApplied Mathematics \nEducational Neuroscience \nLabor Relations\nCeramics\nDrawing \nSculpture\nphotography \nPainting\nAnesthesia \nComputer Science\nPsychology \nPublic Health \nPathology of Speech \nEnvironmental Biology \nEnvironmental Chemistry \nWater Resources Operations \nMolecular Biotechnology \nEnvironmental Ecology\nMechanical Engineering \nEducation \nRisk Management \nSocial Work\nLaw                                                                                        Doctorate:\nBusiness Administration\nMusic Arts\nNursing\nLegal Sciences\nEducation \nProfessional Studes\nTheology \nBiotechnology\nHuman Resources\nOptometry \nPsychology"
+        },
+        "flags": {
+          "has_nursing": true,
+          "has_engineering": true,
+          "has_humanities": true,
+          "has_business": true,
+          "has_grad": true,
+          "is_public": false,
+          "is_active": true,
+          "is_branch": true
+        },
+        "admission_rate": null,
+        "completion_rate": null,
+        "tuition_in_state": null,
+        "tuition_out_state": null,
+        "avg_net_price": null,
+        "median_debt": null,
+        "median_earnings_10yr": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1537,
+          18.3911
+        ]
+      },
+      "properties": {
+        "id": 242705,
+        "name": "Inter American - BayamÃ³n",
+        "name_scorecard": "Inter American University of Puerto Rico-Metro",
+        "city": "BayamÃ³n",
+        "zip": "00919",
+        "website": "https://www.inter.edu",
+        "is_main_campus": false,
+        "parent_id": 242636,
+        "ownership": "Private Non-Profit",
+        "level": "4-year",
+        "accreditor": "MSCHE",
+        "enrollment": 3476,
+        "active": true,
+        "data_source": "seed",
+        "majors": {
+          "nursing": "Nursing ",
+          "engineering": "Pre-engineering \nArchitectural \nElectric \nIndustrial \nMechanics \nComputers ",
+          "humanities": "Music Education: General-vowel \nMusic Education: Instrumental \nApplied Music                                    Teaching of Art \nCeramics \nDrawing \nSculpture \nPhotography\nEngraved \nPainting ",
+          "social_sciences": "Secondary Education \nLevel K-12 Education\nSpecial Education \nStudies in Religion\nEnglish - Arts\nMathematics - Arts\nPsychology \nSocial work \nTeaching English as a Second Language Secondary Level\nSecondary level in Spanish \nSchool Health \nEarly Childhood: Elementary Level (Fourth to Sixth)\nEarly Childhood: Primary Elementary Level (Kinder to Third)\nEarly Childhood: Preschool Level\nGraphic Design\nDigital Graphic Design and Multimedia\nSecurity Management\nNetworks and Telecommunications                                    Criminal Investigation \nForensic Investigation \nCybercrime Investigation                                                            Elementary Education in Special Education\nAdapted Physical Education\nPhysical Education at the K-12 Level",
+          "bench_sciences": "Biology\nBiotechnology\nComputer Science                 Agronomy                                 Molecular Medicine and Bioprocesses\nMicrobiology \nChemistry \nApplied Chemistry: Biochemistry \nApplied Chemistry: Nanotechnology \nApplied Chemistry: Forensic Chemistry \nIndustrial Chemistry  ",
+          "business": " Business Administration\nTourist Administration\nOrganizational Behavior \nBusiness and Management Development \nFinances \nOrganizational Management and Innovation \nManufacturing and Service Operations Management\nHuman Resources Management \nMarketing \nInternational Business \nInformation Technology \nAccounting \nMarketing for Digital Media ",
+          "pre_law": null,
+          "miscellaneous": " Office Systems Administration    Hotel and Restaurant Management Mammography and Angiography ",
+          "grad_programs": "Masters:\nBank Administration\nBusiness administration\nAccounting\nSocial Entrepreneurship \nFinances\nIndustrial Management \nMarketing\nHuman Resources\nManagement Information Systems\nTourism \nSpecial Ed.\nGerontology\nPublic Policy \nMusic Ed.\nReligious Ed.\nHistory \nCriminal Justice\nApplied Mathematics \nEducational Neuroscience \nLabor Relations\nCeramics\nDrawing \nSculpture\nphotography \nPainting\nAnesthesia \nComputer Science\nPsychology \nPublic Health \nPathology of Speech \nEnvironmental Biology \nEnvironmental Chemistry \nWater Resources Operations \nMolecular Biotechnology \nEnvironmental Ecology\nMechanical Engineering \nEducation \nRisk Management \nSocial Work\nLaw                                                                                        Doctorate:\nBusiness Administration\nMusic Arts\nNursing\nLegal Sciences\nEducation \nProfessional Studes\nTheology \nBiotechnology\nHuman Resources\nOptometry \nPsychology"
+        },
+        "flags": {
+          "has_nursing": true,
+          "has_engineering": true,
+          "has_humanities": true,
+          "has_business": true,
+          "has_grad": true,
+          "is_public": false,
+          "is_active": true,
+          "is_branch": true
+        },
+        "admission_rate": 0.3962,
+        "completion_rate": 0.3492,
+        "tuition_in_state": 5780,
+        "tuition_out_state": 5780,
+        "avg_net_price": 9284,
+        "median_debt": 8250,
+        "median_earnings_10yr": 29936
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.6152,
+          18.0108
+        ]
+      },
+      "properties": {
+        "id": 242662,
+        "name": "Inter American - Ponce",
+        "name_scorecard": "Inter American University of Puerto Rico-Metro",
+        "city": "Ponce",
+        "zip": "00919",
+        "website": "https://www.inter.edu",
+        "is_main_campus": false,
+        "parent_id": 242636,
+        "ownership": "Private Non-Profit",
+        "level": "4-year",
+        "accreditor": "MSCHE",
+        "enrollment": 2600,
+        "active": true,
+        "data_source": "seed",
+        "majors": {
+          "nursing": "Nursing ",
+          "engineering": "Pre-engineering \nArchitectural \nElectric \nIndustrial \nMechanics \nComputers ",
+          "humanities": "Music Education: General-vowel \nMusic Education: Instrumental \nApplied Music                                    Teaching of Art \nCeramics \nDrawing \nSculpture \nPhotography\nEngraved \nPainting ",
+          "social_sciences": "Secondary Education \nLevel K-12 Education\nSpecial Education \nStudies in Religion\nEnglish - Arts\nMathematics - Arts\nPsychology \nSocial work \nTeaching English as a Second Language Secondary Level\nSecondary level in Spanish \nSchool Health \nEarly Childhood: Elementary Level (Fourth to Sixth)\nEarly Childhood: Primary Elementary Level (Kinder to Third)\nEarly Childhood: Preschool Level\nGraphic Design\nDigital Graphic Design and Multimedia\nSecurity Management\nNetworks and Telecommunications                                    Criminal Investigation \nForensic Investigation \nCybercrime Investigation                                                            Elementary Education in Special Education\nAdapted Physical Education\nPhysical Education at the K-12 Level",
+          "bench_sciences": "Biology\nBiotechnology\nComputer Science                 Agronomy                                 Molecular Medicine and Bioprocesses\nMicrobiology \nChemistry \nApplied Chemistry: Biochemistry \nApplied Chemistry: Nanotechnology \nApplied Chemistry: Forensic Chemistry \nIndustrial Chemistry  ",
+          "business": " Business Administration\nTourist Administration\nOrganizational Behavior \nBusiness and Management Development \nFinances \nOrganizational Management and Innovation \nManufacturing and Service Operations Management\nHuman Resources Management \nMarketing \nInternational Business \nInformation Technology \nAccounting \nMarketing for Digital Media ",
+          "pre_law": null,
+          "miscellaneous": " Office Systems Administration    Hotel and Restaurant Management Mammography and Angiography ",
+          "grad_programs": "Masters:\nBank Administration\nBusiness administration\nAccounting\nSocial Entrepreneurship \nFinances\nIndustrial Management \nMarketing\nHuman Resources\nManagement Information Systems\nTourism \nSpecial Ed.\nGerontology\nPublic Policy \nMusic Ed.\nReligious Ed.\nHistory \nCriminal Justice\nApplied Mathematics \nEducational Neuroscience \nLabor Relations\nCeramics\nDrawing \nSculpture\nphotography \nPainting\nAnesthesia \nComputer Science\nPsychology \nPublic Health \nPathology of Speech \nEnvironmental Biology \nEnvironmental Chemistry \nWater Resources Operations \nMolecular Biotechnology \nEnvironmental Ecology\nMechanical Engineering \nEducation \nRisk Management \nSocial Work\nLaw                                                                                        Doctorate:\nBusiness Administration\nMusic Arts\nNursing\nLegal Sciences\nEducation \nProfessional Studes\nTheology \nBiotechnology\nHuman Resources\nOptometry \nPsychology"
+        },
+        "flags": {
+          "has_nursing": true,
+          "has_engineering": true,
+          "has_humanities": true,
+          "has_business": true,
+          "has_grad": true,
+          "is_public": false,
+          "is_active": true,
+          "is_branch": true
+        },
+        "admission_rate": 0.3373,
+        "completion_rate": 0.4144,
+        "tuition_in_state": 5780,
+        "tuition_out_state": 5780,
+        "avg_net_price": 9026,
+        "median_debt": 6375,
+        "median_earnings_10yr": 26721
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.1536,
+          18.4278
+        ]
+      },
+      "properties": {
+        "id": 242626,
+        "name": "Inter American - Aguadilla",
+        "name_scorecard": "Inter American University of Puerto Rico-Metro",
+        "city": "Aguadilla",
+        "zip": "00919",
+        "website": "https://www.inter.edu",
+        "is_main_campus": false,
+        "parent_id": 242636,
+        "ownership": "Private Non-Profit",
+        "level": "4-year",
+        "accreditor": "MSCHE",
+        "enrollment": 1900,
+        "active": true,
+        "data_source": "seed",
+        "majors": {
+          "nursing": "Nursing ",
+          "engineering": "Pre-engineering \nArchitectural \nElectric \nIndustrial \nMechanics \nComputers ",
+          "humanities": "Music Education: General-vowel \nMusic Education: Instrumental \nApplied Music                                    Teaching of Art \nCeramics \nDrawing \nSculpture \nPhotography\nEngraved \nPainting ",
+          "social_sciences": "Secondary Education \nLevel K-12 Education\nSpecial Education \nStudies in Religion\nEnglish - Arts\nMathematics - Arts\nPsychology \nSocial work \nTeaching English as a Second Language Secondary Level\nSecondary level in Spanish \nSchool Health \nEarly Childhood: Elementary Level (Fourth to Sixth)\nEarly Childhood: Primary Elementary Level (Kinder to Third)\nEarly Childhood: Preschool Level\nGraphic Design\nDigital Graphic Design and Multimedia\nSecurity Management\nNetworks and Telecommunications                                    Criminal Investigation \nForensic Investigation \nCybercrime Investigation                                                            Elementary Education in Special Education\nAdapted Physical Education\nPhysical Education at the K-12 Level",
+          "bench_sciences": "Biology\nBiotechnology\nComputer Science                 Agronomy                                 Molecular Medicine and Bioprocesses\nMicrobiology \nChemistry \nApplied Chemistry: Biochemistry \nApplied Chemistry: Nanotechnology \nApplied Chemistry: Forensic Chemistry \nIndustrial Chemistry  ",
+          "business": " Business Administration\nTourist Administration\nOrganizational Behavior \nBusiness and Management Development \nFinances \nOrganizational Management and Innovation \nManufacturing and Service Operations Management\nHuman Resources Management \nMarketing \nInternational Business \nInformation Technology \nAccounting \nMarketing for Digital Media ",
+          "pre_law": null,
+          "miscellaneous": " Office Systems Administration    Hotel and Restaurant Management Mammography and Angiography ",
+          "grad_programs": "Masters:\nBank Administration\nBusiness administration\nAccounting\nSocial Entrepreneurship \nFinances\nIndustrial Management \nMarketing\nHuman Resources\nManagement Information Systems\nTourism \nSpecial Ed.\nGerontology\nPublic Policy \nMusic Ed.\nReligious Ed.\nHistory \nCriminal Justice\nApplied Mathematics \nEducational Neuroscience \nLabor Relations\nCeramics\nDrawing \nSculpture\nphotography \nPainting\nAnesthesia \nComputer Science\nPsychology \nPublic Health \nPathology of Speech \nEnvironmental Biology \nEnvironmental Chemistry \nWater Resources Operations \nMolecular Biotechnology \nEnvironmental Ecology\nMechanical Engineering \nEducation \nRisk Management \nSocial Work\nLaw                                                                                        Doctorate:\nBusiness Administration\nMusic Arts\nNursing\nLegal Sciences\nEducation \nProfessional Studes\nTheology \nBiotechnology\nHuman Resources\nOptometry \nPsychology"
+        },
+        "flags": {
+          "has_nursing": true,
+          "has_engineering": true,
+          "has_humanities": true,
+          "has_business": true,
+          "has_grad": true,
+          "is_public": false,
+          "is_active": true,
+          "is_branch": true
+        },
+        "admission_rate": null,
+        "completion_rate": null,
+        "tuition_in_state": null,
+        "tuition_out_state": null,
+        "avg_net_price": null,
+        "median_debt": null,
+        "median_earnings_10yr": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.6943,
+          18.4614
+        ]
+      },
+      "properties": {
+        "id": 240390,
+        "name": "Inter American - Arecibo",
+        "name_scorecard": "Inter American University of Puerto Rico-Metro",
+        "city": "Arecibo",
+        "zip": "00919",
+        "website": "https://www.inter.edu",
+        "is_main_campus": false,
+        "parent_id": 242636,
+        "ownership": "Private Non-Profit",
+        "level": "4-year",
+        "accreditor": "MSCHE",
+        "enrollment": 2200,
+        "active": true,
+        "data_source": "seed",
+        "majors": {
+          "nursing": "Nursing ",
+          "engineering": "Pre-engineering \nArchitectural \nElectric \nIndustrial \nMechanics \nComputers ",
+          "humanities": "Music Education: General-vowel \nMusic Education: Instrumental \nApplied Music                                    Teaching of Art \nCeramics \nDrawing \nSculpture \nPhotography\nEngraved \nPainting ",
+          "social_sciences": "Secondary Education \nLevel K-12 Education\nSpecial Education \nStudies in Religion\nEnglish - Arts\nMathematics - Arts\nPsychology \nSocial work \nTeaching English as a Second Language Secondary Level\nSecondary level in Spanish \nSchool Health \nEarly Childhood: Elementary Level (Fourth to Sixth)\nEarly Childhood: Primary Elementary Level (Kinder to Third)\nEarly Childhood: Preschool Level\nGraphic Design\nDigital Graphic Design and Multimedia\nSecurity Management\nNetworks and Telecommunications                                    Criminal Investigation \nForensic Investigation \nCybercrime Investigation                                                            Elementary Education in Special Education\nAdapted Physical Education\nPhysical Education at the K-12 Level",
+          "bench_sciences": "Biology\nBiotechnology\nComputer Science                 Agronomy                                 Molecular Medicine and Bioprocesses\nMicrobiology \nChemistry \nApplied Chemistry: Biochemistry \nApplied Chemistry: Nanotechnology \nApplied Chemistry: Forensic Chemistry \nIndustrial Chemistry  ",
+          "business": " Business Administration\nTourist Administration\nOrganizational Behavior \nBusiness and Management Development \nFinances \nOrganizational Management and Innovation \nManufacturing and Service Operations Management\nHuman Resources Management \nMarketing \nInternational Business \nInformation Technology \nAccounting \nMarketing for Digital Media ",
+          "pre_law": null,
+          "miscellaneous": " Office Systems Administration    Hotel and Restaurant Management Mammography and Angiography ",
+          "grad_programs": "Masters:\nBank Administration\nBusiness administration\nAccounting\nSocial Entrepreneurship \nFinances\nIndustrial Management \nMarketing\nHuman Resources\nManagement Information Systems\nTourism \nSpecial Ed.\nGerontology\nPublic Policy \nMusic Ed.\nReligious Ed.\nHistory \nCriminal Justice\nApplied Mathematics \nEducational Neuroscience \nLabor Relations\nCeramics\nDrawing \nSculpture\nphotography \nPainting\nAnesthesia \nComputer Science\nPsychology \nPublic Health \nPathology of Speech \nEnvironmental Biology \nEnvironmental Chemistry \nWater Resources Operations \nMolecular Biotechnology \nEnvironmental Ecology\nMechanical Engineering \nEducation \nRisk Management \nSocial Work\nLaw                                                                                        Doctorate:\nBusiness Administration\nMusic Arts\nNursing\nLegal Sciences\nEducation \nProfessional Studes\nTheology \nBiotechnology\nHuman Resources\nOptometry \nPsychology"
+        },
+        "flags": {
+          "has_nursing": true,
+          "has_engineering": true,
+          "has_humanities": true,
+          "has_business": true,
+          "has_grad": true,
+          "is_public": false,
+          "is_active": true,
+          "is_branch": true
+        },
+        "admission_rate": null,
+        "completion_rate": null,
+        "tuition_in_state": null,
+        "tuition_out_state": null,
+        "avg_net_price": null,
+        "median_debt": null,
+        "median_earnings_10yr": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.6536,
+          18.3254
+        ]
+      },
+      "properties": {
+        "id": 241185,
+        "name": "Inter American - Fajardo",
+        "name_scorecard": "Inter American University of Puerto Rico-Metro",
+        "city": "Fajardo",
+        "zip": "00919",
+        "website": "https://www.inter.edu",
+        "is_main_campus": false,
+        "parent_id": 242636,
+        "ownership": "Private Non-Profit",
+        "level": "4-year",
+        "accreditor": "MSCHE",
+        "enrollment": 1100,
+        "active": true,
+        "data_source": "seed",
+        "majors": {
+          "nursing": "Nursing ",
+          "engineering": "Pre-engineering \nArchitectural \nElectric \nIndustrial \nMechanics \nComputers ",
+          "humanities": "Music Education: General-vowel \nMusic Education: Instrumental \nApplied Music                                    Teaching of Art \nCeramics \nDrawing \nSculpture \nPhotography\nEngraved \nPainting ",
+          "social_sciences": "Secondary Education \nLevel K-12 Education\nSpecial Education \nStudies in Religion\nEnglish - Arts\nMathematics - Arts\nPsychology \nSocial work \nTeaching English as a Second Language Secondary Level\nSecondary level in Spanish \nSchool Health \nEarly Childhood: Elementary Level (Fourth to Sixth)\nEarly Childhood: Primary Elementary Level (Kinder to Third)\nEarly Childhood: Preschool Level\nGraphic Design\nDigital Graphic Design and Multimedia\nSecurity Management\nNetworks and Telecommunications                                    Criminal Investigation \nForensic Investigation \nCybercrime Investigation                                                            Elementary Education in Special Education\nAdapted Physical Education\nPhysical Education at the K-12 Level",
+          "bench_sciences": "Biology\nBiotechnology\nComputer Science                 Agronomy                                 Molecular Medicine and Bioprocesses\nMicrobiology \nChemistry \nApplied Chemistry: Biochemistry \nApplied Chemistry: Nanotechnology \nApplied Chemistry: Forensic Chemistry \nIndustrial Chemistry  ",
+          "business": " Business Administration\nTourist Administration\nOrganizational Behavior \nBusiness and Management Development \nFinances \nOrganizational Management and Innovation \nManufacturing and Service Operations Management\nHuman Resources Management \nMarketing \nInternational Business \nInformation Technology \nAccounting \nMarketing for Digital Media ",
+          "pre_law": null,
+          "miscellaneous": " Office Systems Administration    Hotel and Restaurant Management Mammography and Angiography ",
+          "grad_programs": "Masters:\nBank Administration\nBusiness administration\nAccounting\nSocial Entrepreneurship \nFinances\nIndustrial Management \nMarketing\nHuman Resources\nManagement Information Systems\nTourism \nSpecial Ed.\nGerontology\nPublic Policy \nMusic Ed.\nReligious Ed.\nHistory \nCriminal Justice\nApplied Mathematics \nEducational Neuroscience \nLabor Relations\nCeramics\nDrawing \nSculpture\nphotography \nPainting\nAnesthesia \nComputer Science\nPsychology \nPublic Health \nPathology of Speech \nEnvironmental Biology \nEnvironmental Chemistry \nWater Resources Operations \nMolecular Biotechnology \nEnvironmental Ecology\nMechanical Engineering \nEducation \nRisk Management \nSocial Work\nLaw                                                                                        Doctorate:\nBusiness Administration\nMusic Arts\nNursing\nLegal Sciences\nEducation \nProfessional Studes\nTheology \nBiotechnology\nHuman Resources\nOptometry \nPsychology"
+        },
+        "flags": {
+          "has_nursing": true,
+          "has_engineering": true,
+          "has_humanities": true,
+          "has_business": true,
+          "has_grad": true,
+          "is_public": false,
+          "is_active": true,
+          "is_branch": true
+        },
+        "admission_rate": null,
+        "completion_rate": null,
+        "tuition_in_state": null,
+        "tuition_out_state": null,
+        "avg_net_price": null,
+        "median_debt": null,
+        "median_earnings_10yr": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.1138,
+          17.9713
+        ]
+      },
+      "properties": {
+        "id": 242699,
+        "name": "Inter American - Guayama",
+        "name_scorecard": "Inter American University of Puerto Rico-Metro",
+        "city": "Guayama",
+        "zip": "00919",
+        "website": "https://www.inter.edu",
+        "is_main_campus": false,
+        "parent_id": 242636,
+        "ownership": "Private Non-Profit",
+        "level": "4-year",
+        "accreditor": "MSCHE",
+        "enrollment": 2393,
+        "active": true,
+        "data_source": "seed",
+        "majors": {
+          "nursing": "Nursing ",
+          "engineering": "Pre-engineering \nArchitectural \nElectric \nIndustrial \nMechanics \nComputers ",
+          "humanities": "Music Education: General-vowel \nMusic Education: Instrumental \nApplied Music                                    Teaching of Art \nCeramics \nDrawing \nSculpture \nPhotography\nEngraved \nPainting ",
+          "social_sciences": "Secondary Education \nLevel K-12 Education\nSpecial Education \nStudies in Religion\nEnglish - Arts\nMathematics - Arts\nPsychology \nSocial work \nTeaching English as a Second Language Secondary Level\nSecondary level in Spanish \nSchool Health \nEarly Childhood: Elementary Level (Fourth to Sixth)\nEarly Childhood: Primary Elementary Level (Kinder to Third)\nEarly Childhood: Preschool Level\nGraphic Design\nDigital Graphic Design and Multimedia\nSecurity Management\nNetworks and Telecommunications                                    Criminal Investigation \nForensic Investigation \nCybercrime Investigation                                                            Elementary Education in Special Education\nAdapted Physical Education\nPhysical Education at the K-12 Level",
+          "bench_sciences": "Biology\nBiotechnology\nComputer Science                 Agronomy                                 Molecular Medicine and Bioprocesses\nMicrobiology \nChemistry \nApplied Chemistry: Biochemistry \nApplied Chemistry: Nanotechnology \nApplied Chemistry: Forensic Chemistry \nIndustrial Chemistry  ",
+          "business": " Business Administration\nTourist Administration\nOrganizational Behavior \nBusiness and Management Development \nFinances \nOrganizational Management and Innovation \nManufacturing and Service Operations Management\nHuman Resources Management \nMarketing \nInternational Business \nInformation Technology \nAccounting \nMarketing for Digital Media ",
+          "pre_law": null,
+          "miscellaneous": " Office Systems Administration    Hotel and Restaurant Management Mammography and Angiography ",
+          "grad_programs": "Masters:\nBank Administration\nBusiness administration\nAccounting\nSocial Entrepreneurship \nFinances\nIndustrial Management \nMarketing\nHuman Resources\nManagement Information Systems\nTourism \nSpecial Ed.\nGerontology\nPublic Policy \nMusic Ed.\nReligious Ed.\nHistory \nCriminal Justice\nApplied Mathematics \nEducational Neuroscience \nLabor Relations\nCeramics\nDrawing \nSculpture\nphotography \nPainting\nAnesthesia \nComputer Science\nPsychology \nPublic Health \nPathology of Speech \nEnvironmental Biology \nEnvironmental Chemistry \nWater Resources Operations \nMolecular Biotechnology \nEnvironmental Ecology\nMechanical Engineering \nEducation \nRisk Management \nSocial Work\nLaw                                                                                        Doctorate:\nBusiness Administration\nMusic Arts\nNursing\nLegal Sciences\nEducation \nProfessional Studes\nTheology \nBiotechnology\nHuman Resources\nOptometry \nPsychology"
+        },
+        "flags": {
+          "has_nursing": true,
+          "has_engineering": true,
+          "has_humanities": true,
+          "has_business": true,
+          "has_grad": true,
+          "is_public": false,
+          "is_active": true,
+          "is_branch": true
+        },
+        "admission_rate": 0.3633,
+        "completion_rate": 0.4421,
+        "tuition_in_state": 5780,
+        "tuition_out_state": 5780,
+        "avg_net_price": 9316,
+        "median_debt": 9500,
+        "median_earnings_10yr": 25827
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.3068,
+          18.1862
+        ]
+      },
+      "properties": {
+        "id": 242644,
+        "name": "Inter American - Barranquitas",
+        "name_scorecard": "Inter American University of Puerto Rico-Metro",
+        "city": "Barranquitas",
+        "zip": "00919",
+        "website": "https://www.inter.edu",
+        "is_main_campus": false,
+        "parent_id": 242636,
+        "ownership": "Private Non-Profit",
+        "level": "4-year",
+        "accreditor": "MSCHE",
+        "enrollment": 800,
+        "active": true,
+        "data_source": "seed",
+        "majors": {
+          "nursing": "Nursing ",
+          "engineering": "Pre-engineering \nArchitectural \nElectric \nIndustrial \nMechanics \nComputers ",
+          "humanities": "Music Education: General-vowel \nMusic Education: Instrumental \nApplied Music                                    Teaching of Art \nCeramics \nDrawing \nSculpture \nPhotography\nEngraved \nPainting ",
+          "social_sciences": "Secondary Education \nLevel K-12 Education\nSpecial Education \nStudies in Religion\nEnglish - Arts\nMathematics - Arts\nPsychology \nSocial work \nTeaching English as a Second Language Secondary Level\nSecondary level in Spanish \nSchool Health \nEarly Childhood: Elementary Level (Fourth to Sixth)\nEarly Childhood: Primary Elementary Level (Kinder to Third)\nEarly Childhood: Preschool Level\nGraphic Design\nDigital Graphic Design and Multimedia\nSecurity Management\nNetworks and Telecommunications                                    Criminal Investigation \nForensic Investigation \nCybercrime Investigation                                                            Elementary Education in Special Education\nAdapted Physical Education\nPhysical Education at the K-12 Level",
+          "bench_sciences": "Biology\nBiotechnology\nComputer Science                 Agronomy                                 Molecular Medicine and Bioprocesses\nMicrobiology \nChemistry \nApplied Chemistry: Biochemistry \nApplied Chemistry: Nanotechnology \nApplied Chemistry: Forensic Chemistry \nIndustrial Chemistry  ",
+          "business": " Business Administration\nTourist Administration\nOrganizational Behavior \nBusiness and Management Development \nFinances \nOrganizational Management and Innovation \nManufacturing and Service Operations Management\nHuman Resources Management \nMarketing \nInternational Business \nInformation Technology \nAccounting \nMarketing for Digital Media ",
+          "pre_law": null,
+          "miscellaneous": " Office Systems Administration    Hotel and Restaurant Management Mammography and Angiography ",
+          "grad_programs": "Masters:\nBank Administration\nBusiness administration\nAccounting\nSocial Entrepreneurship \nFinances\nIndustrial Management \nMarketing\nHuman Resources\nManagement Information Systems\nTourism \nSpecial Ed.\nGerontology\nPublic Policy \nMusic Ed.\nReligious Ed.\nHistory \nCriminal Justice\nApplied Mathematics \nEducational Neuroscience \nLabor Relations\nCeramics\nDrawing \nSculpture\nphotography \nPainting\nAnesthesia \nComputer Science\nPsychology \nPublic Health \nPathology of Speech \nEnvironmental Biology \nEnvironmental Chemistry \nWater Resources Operations \nMolecular Biotechnology \nEnvironmental Ecology\nMechanical Engineering \nEducation \nRisk Management \nSocial Work\nLaw                                                                                        Doctorate:\nBusiness Administration\nMusic Arts\nNursing\nLegal Sciences\nEducation \nProfessional Studes\nTheology \nBiotechnology\nHuman Resources\nOptometry \nPsychology"
+        },
+        "flags": {
+          "has_nursing": true,
+          "has_engineering": true,
+          "has_humanities": true,
+          "has_business": true,
+          "has_grad": true,
+          "is_public": false,
+          "is_active": true,
+          "is_branch": true
+        },
+        "admission_rate": null,
+        "completion_rate": null,
+        "tuition_in_state": null,
+        "tuition_out_state": null,
+        "avg_net_price": null,
+        "median_debt": null,
+        "median_earnings_10yr": null
+      }
+    }
+  ]
+} as unknown as InstitutionCollection;

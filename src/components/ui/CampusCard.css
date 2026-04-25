@@ -1,0 +1,299 @@
+/* ── CampusCard ──────────────────────────────────────────────────────── */
+.campus-card {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 100;
+  background: white;
+  border-top: 0.5px solid #d8dce8;
+}
+
+/* Gold accent bar */
+.campus-card-accent {
+  height: 2px;
+  background: #8B634B;
+  opacity: 0.5;
+}
+
+/* Header */
+.cc-header {
+  padding: 14px 16px 10px;
+  border-bottom: 0.5px solid #eef0f6;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+}
+.cc-header-left { flex: 1; min-width: 0; }
+.cc-header-right {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  flex-shrink: 0;
+}
+
+.cc-badge-row {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 6px;
+}
+.cc-badge {
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 2px 7px;
+  border-radius: 10px;
+  border: 0.5px solid;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+.cc-badge--active   { color: #2a8a5a; border-color: rgba(42,138,90,0.3);  background: rgba(42,138,90,0.08); }
+.cc-badge--closed   { color: #8a5a5a; border-color: rgba(138,90,90,0.3);  background: rgba(138,90,90,0.06); }
+.cc-badge--main     { color: #00205B; border-color: rgba(0,32,91,0.25);   background: rgba(0,32,91,0.05); }
+.cc-badge--branch   { color: #8892aa; border-color: rgba(136,146,170,0.3); background: transparent; }
+
+.cc-name {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 14px;
+  color: #1e2640;
+  line-height: 1.3;
+  margin-bottom: 3px;
+}
+.cc-subline {
+  font-size: 11px;
+  color: #8892aa;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+.cc-website {
+  font-size: 11px;
+  color: #00205B;
+  text-decoration: none;
+  font-family: Georgia, 'Times New Roman', serif;
+  transition: opacity 0.15s;
+  white-space: nowrap;
+}
+.cc-website:hover { opacity: 0.65; }
+
+.cc-close {
+  color: #8892aa;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 0 0 0 12px;
+  line-height: 1;
+  transition: color 0.15s;
+}
+.cc-close:hover { color: #C8102E; }
+
+/* Stats row */
+.cc-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background: #f8f9fc;
+  border-bottom: 0.5px solid #eef0f6;
+}
+.cc-stat-cell {
+  padding: 10px 14px;
+  border-right: 0.5px solid #eef0f6;
+}
+.cc-stat-cell:last-child { border-right: none; }
+.cc-stat-label {
+  font-size: 8px;
+  color: #8892aa;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-family: Georgia, 'Times New Roman', serif;
+  display: block;
+  margin-bottom: 3px;
+}
+.cc-stat-value {
+  font-size: 14px;
+  color: #1e2640;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+/* Programs accordion */
+.cc-accordion {
+  border-bottom: 0.5px solid #eef0f6;
+}
+.cc-accordion-trigger {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 9px 16px;
+  cursor: pointer;
+  background: white;
+  width: 100%;
+  border: none;
+  transition: background 0.12s;
+}
+.cc-accordion-trigger:hover { background: #f8f9fc; }
+.cc-accordion-title {
+  font-size: 9px;
+  color: #8892aa;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+.cc-accordion-toggle {
+  font-size: 10px;
+  color: #8892aa;
+  border: 0.5px solid #d8dce8;
+  border-radius: 3px;
+  background: transparent;
+  padding: 2px 7px;
+  cursor: pointer;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+.cc-accordion-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.25s ease;
+}
+.cc-accordion-body.open {
+  max-height: 400px;
+  overflow-y: auto;
+}
+.cc-prog-row {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  padding: 6px 16px;
+  border-bottom: 0.5px solid #f4f6fb;
+}
+.cc-prog-field {
+  font-size: 9px;
+  color: #8892aa;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  width: 80px;
+  flex-shrink: 0;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+.cc-prog-value {
+  font-size: 11px;
+  color: #4a5478;
+  flex: 1;
+  line-height: 1.5;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+.cc-prog-value.empty { color: #d8dce8; }
+
+/* Secondary stats inside accordion */
+.cc-secondary-label {
+  font-size: 9px;
+  color: #8892aa;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 8px 16px 4px;
+  border-top: 0.5px solid #eef0f6;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+.cc-secondary-row {
+  display: flex;
+  padding: 0 16px 10px;
+  gap: 0;
+}
+.cc-sec-cell {
+  flex: 1;
+  padding: 4px 8px 4px 0;
+}
+.cc-sec-label {
+  font-size: 9px;
+  color: #8892aa;
+  font-family: Georgia, 'Times New Roman', serif;
+  display: block;
+  margin-bottom: 2px;
+}
+.cc-sec-value {
+  font-size: 12px;
+  color: #1e2640;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+/* System footer */
+.cc-system-footer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+}
+.cc-system-label {
+  font-size: 9px;
+  color: #8892aa;
+  font-family: Georgia, 'Times New Roman', serif;
+  flex: 1;
+}
+.cc-system-link {
+  font-size: 10px;
+  color: #00205B;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  font-family: Georgia, 'Times New Roman', serif;
+  transition: opacity 0.15s;
+}
+.cc-system-link:hover { opacity: 0.65; }
+
+/* Branch campus navigation */
+.dc-branches {
+  padding: 10px 16px 12px;
+  border-bottom: 0.5px solid #eef0f6;
+}
+.dc-branches-label {
+  font-size: 9px;
+  color: #8892aa;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-family: Georgia, serif;
+  margin-bottom: 7px;
+}
+.dc-branches-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.dc-branch-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  background: #f4f6fb;
+  border: 0.5px solid #d8dce8;
+  border-radius: 7px;
+  padding: 7px 10px;
+  cursor: pointer;
+  font-family: Georgia, serif;
+  transition: background 0.12s, border-color 0.12s;
+  text-align: left;
+}
+.dc-branch-btn:hover {
+  background: #e8ecf5;
+  border-color: #00205B;
+}
+.dc-branch-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #41B6E6;
+  flex-shrink: 0;
+}
+.dc-branch-name {
+  font-size: 12px;
+  color: #1e2640;
+  flex: 1;
+  font-family: Georgia, serif;
+}
+.dc-branch-city {
+  font-size: 11px;
+  color: #8892aa;
+  font-family: Georgia, serif;
+}
+.dc-branch-arrow {
+  font-size: 11px;
+  color: #00205B;
+  margin-left: 4px;
+}

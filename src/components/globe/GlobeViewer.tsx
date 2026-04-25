@@ -4,17 +4,18 @@ import 'cesium/Build/Cesium/Widgets/widgets.css';
 import { useFilterStore } from '../../store/filterStore';
 import { useInstitutions } from '../../hooks/useInstitutions';
 import type { InstitutionFeature } from '../../types';
+import { cameraOriginForTarget } from '../../utils/cesium';
 
 // Set Ion token from env
 Cesium.Ion.defaultAccessToken = import.meta.env.VITE_CESIUM_ION_TOKEN as string;
 
 function getOwnershipColor(feature: InstitutionFeature): Cesium.Color {
   const { active, ownership } = feature.properties;
-  if (!active) return Cesium.Color.fromCssColorString('#6B7280').withAlpha(0.5);
+  if (!active) return Cesium.Color.fromCssColorString('#8892aa').withAlpha(0.5);
   switch (ownership) {
-    case 'Public': return Cesium.Color.fromCssColorString('#3B82F6');
-    case 'Private Non-Profit': return Cesium.Color.fromCssColorString('#10B981');
-    case 'Private For-Profit': return Cesium.Color.fromCssColorString('#F59E0B');
+    case 'Public': return Cesium.Color.fromCssColorString('#00205B');
+    case 'Private Non-Profit': return Cesium.Color.fromCssColorString('#41B6E6');
+    case 'Private For-Profit': return Cesium.Color.fromCssColorString('#8B634B');
     default: return Cesium.Color.WHITE;
   }
 }
@@ -95,15 +96,17 @@ export function GlobeViewer({ onReady }: GlobeViewerProps) {
       }
     })();
 
-    // Default camera view over Puerto Rico
+    // Birds-eye view of Puerto Rico for intro screen
+    // pitch -90 = straight down, no forward tilt
+    // Altitude ~180km fits the full island in frame
     viewer.camera.flyTo({
-      destination: Cesium.Cartesian3.fromDegrees(-66.5, 18.22, 120000),
+      destination: Cesium.Cartesian3.fromDegrees(-66.5, 18.22, 180000),
       orientation: {
         heading: Cesium.Math.toRadians(0),
-        pitch: Cesium.Math.toRadians(-35),
+        pitch: Cesium.Math.toRadians(-90),
         roll: 0,
       },
-      duration: 2,
+      duration: 0,  // instant — no fly animation on first load
     });
 
     // Click handler — select + fly to campus
@@ -120,15 +123,16 @@ export function GlobeViewer({ onReady }: GlobeViewerProps) {
           const pos = entity.position?.getValue(viewer.clock.currentTime);
           if (pos) {
             const carto = Cesium.Cartographic.fromCartesian(pos);
+            const ALTITUDE = 800;
+            const PITCH_DEG = -30;
+            const targetLon = Cesium.Math.toDegrees(carto.longitude);
+            const targetLat = Cesium.Math.toDegrees(carto.latitude);
+            const [camLon, camLat] = cameraOriginForTarget(targetLon, targetLat, ALTITUDE, PITCH_DEG);
             viewer.camera.flyTo({
-              destination: Cesium.Cartesian3.fromRadians(
-                carto.longitude,
-                carto.latitude,
-                800  // ~800 m above ground — close enough to see campus in 3D tiles
-              ),
+              destination: Cesium.Cartesian3.fromDegrees(camLon, camLat, ALTITUDE),
               orientation: {
                 heading: Cesium.Math.toRadians(0),
-                pitch: Cesium.Math.toRadians(-30),
+                pitch: Cesium.Math.toRadians(PITCH_DEG),
                 roll: 0,
               },
               duration: 1.8,

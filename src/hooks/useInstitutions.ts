@@ -1,7 +1,7 @@
 import { useMemo } from 'react';
-import { useQuery } from '@tanstack/react-query';
 import { useFilterStore } from '../store/filterStore';
-import type { InstitutionCollection, InstitutionFeature } from '../types';
+import type { InstitutionFeature } from '../types';
+import { institutionData } from '../data/institutions';
 
 export function useInstitutions() {
   const {
@@ -15,22 +15,18 @@ export function useInstitutions() {
     filterGrad,
     activeOnly,
     mainCampusOnly,
+    searchQuery,
   } = useFilterStore();
 
-  const { data, isLoading, error } = useQuery<InstitutionCollection>({
-    queryKey: ['institutions'],
-    queryFn: async () => {
-      const res = await fetch('/pr_colleges_v4_final.geojson');
-      if (!res.ok) throw new Error('Failed to load GeoJSON');
-      return res.json();
-    },
-    staleTime: Infinity,
-  });
+  const data = institutionData;
 
   const filtered = useMemo<InstitutionFeature[]>(() => {
-    if (!data) return [];
+    const q = searchQuery.toLowerCase().trim();
     return data.features.filter((f) => {
       const p = f.properties;
+
+      // Search query filter
+      if (q && !p.name.toLowerCase().includes(q)) return false;
 
       // Ownership filter
       if (p.ownership === 'Public' && !showPublic) return false;
@@ -57,7 +53,7 @@ export function useInstitutions() {
 
       return true;
     });
-  }, [data, showPublic, showPrivateNonProfit, showPrivateForProfit, activeOnly, mainCampusOnly, filterNursing, filterEngineering, filterHumanities, filterBusiness, filterGrad]);
+  }, [data, searchQuery, showPublic, showPrivateNonProfit, showPrivateForProfit, activeOnly, mainCampusOnly, filterNursing, filterEngineering, filterHumanities, filterBusiness, filterGrad]);
 
   const aggregates = useMemo(() => {
     const active = filtered.filter((f) => f.properties.active);
@@ -81,5 +77,5 @@ export function useInstitutions() {
     return { totalEnrollment, avgTuition, avgNetPrice, avgEarnings };
   }, [filtered]);
 
-  return { data, filtered, aggregates, isLoading, error };
+  return { data, filtered, aggregates };
 }

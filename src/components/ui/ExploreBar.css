@@ -1,0 +1,78 @@
+/* ── ExploreBar ──────────────────────────────────────────────────────── */
+.explore-bar {
+  position: fixed;
+  top: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  background: white;
+  border: 0.5px solid #d8dce8;
+  border-radius: 28px;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 480px;
+  box-shadow: 0 1px 8px rgba(0,32,91,0.07);
+}
+
+.eb-wordmark {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  padding-right: 12px;
+  border-right: 0.5px solid #d8dce8;
+}
+.eb-wordmark-primary {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 13px;
+  color: #00205B;
+  line-height: 1.2;
+}
+.eb-wordmark-sub {
+  font-size: 9px;
+  color: #8892aa;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+.eb-search {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 13px;
+  color: #1e2640;
+  background: transparent;
+  min-width: 0;
+}
+.eb-search::placeholder { color: #8892aa; }
+
+.eb-actions {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.eb-btn {
+  border: 0.5px solid #d8dce8;
+  border-radius: 20px;
+  padding: 5px 12px;
+  font-size: 11px;
+  color: #4a5478;
+  background: transparent;
+  font-family: Georgia, 'Times New Roman', serif;
+  cursor: pointer;
+  transition: background 0.12s, border-color 0.12s;
+  white-space: nowrap;
+}
+.eb-btn:hover { background: #f4f6fb; border-color: #00205B; }
+
+.eb-btn--tour {
+  background: #e8ecf5;
+  color: #00205B;
+  border-color: #e8ecf5;
+}
+.eb-btn--tour:hover { background: #d8dce8; }
